@@ -156,8 +156,539 @@ jsStuffs.prepareBoard = function (list, images) {
 	images = images || {};
 
 	// WRITE YOUR DEFAULT DATA HERE
-	let defaultData = {};
-
+	let defaultData = {
+		size: 8,
+		boardData: [
+			[
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+			],
+			[
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+			],
+			[
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+			],
+			[
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+			],
+			[
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+			],
+			[
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+			],
+			[
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+			],
+			[
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+				{
+					type: 0,
+					level: {
+						name: "Base",
+					},
+					angle: 0,
+					blockLevel: 0,
+				},
+			],
+		],
+	};
 	if (window.editData) {
 		defaultData = editData.editorData;
 	}

@@ -1,0 +1,17 @@
+{
+    "id": "b41ff880-83d3-4088-b04d-25a0135bb61a",
+    "name": "lightball_icon.png",
+    "originalFilePath": "assets/2d/LevelEditor/lightball_icon.png",
+    "type": "image",
+    "size": 56189,
+    "path": "assets/2d/LevelEditor/lightball_icon.png",
+    "lastModified": "2025-01-24T05:23:44.959Z",
+    "exportCodeName": "lightball_spine",
+    "exportCode3DName": "lightball_icon",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true,
+    "width": 191,
+    "height": 191,
+    "__hidden": true
+}

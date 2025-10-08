@@ -1,0 +1,20 @@
+{
+    "id": "8a85aa11-5dcc-47ea-a382-7879f5b90bba",
+    "name": "top_ui.png",
+    "originalFilePath": "assets/2d/Temp/atlas/top_ui.png",
+    "type": "image",
+    "size": 14287,
+    "path": "assets/2d/Temp/atlas/top_ui.png.meta",
+    "lastModified": "2024-07-03T10:51:40.625Z",
+    "isNew": false,
+    "exportCodeName": "top_ui",
+    "exportCode3DName": "top_ui",
+    "enableAtlas": false,
+    "enableTiny": true,
+    "exportForCode": false,
+    "__hidden": true,
+    "width": 1440,
+    "height": 295,
+    "fileHash": "e3b119ef13d9bb3e61cb88f4cd49efb8a28cdaff0bf318b48a836639104dd04c",
+    "fileMtime": 1759903581745
+}

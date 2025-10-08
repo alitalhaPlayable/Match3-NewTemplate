@@ -1,0 +1,15 @@
+{
+    "id": "a206c9e2-6112-460a-a600-8fd7cc9c0f28",
+    "name": "yellow.png",
+    "originalFilePath": "assets/2d/Temp/atlas/yellow.png",
+    "type": "image",
+    "size": 31376,
+    "path": "assets/2d/Temp/atlas/yellow.png.meta",
+    "lastModified": "2024-07-03T10:51:39.823Z",
+    "isNew": false,
+    "exportCodeName": "yellow",
+    "exportCode3DName": "yellow",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

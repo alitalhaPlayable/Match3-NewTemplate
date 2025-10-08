@@ -1,0 +1,18 @@
+{
+    "id": "c46b6843-55b4-49f8-aeac-be5c36887523",
+    "name": "door_L_blue.png",
+    "originalFilePath": "assets/2d/export_vol_0/Map/doors/door_L_blue.png",
+    "type": "image",
+    "size": 3842,
+    "path": "assets/2d/export_vol_0/Map/doors/door_L_blue.png",
+    "lastModified": "2024-11-08T12:56:06.439Z",
+    "isNew": false,
+    "exportCodeName": "door_L_blue",
+    "exportCode3DName": "door_L_blue",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 112,
+    "height": 66,
+    "__hidden": true
+}

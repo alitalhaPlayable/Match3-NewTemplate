@@ -1,0 +1,16 @@
+{
+    "id": "ea36bd8b-63b1-437c-80a1-f36059e55eb6",
+    "name": "saved.png",
+    "originalFilePath": "assets/2d/LevelEditor/saved.png",
+    "type": "image",
+    "size": 12967,
+    "path": "assets/2d/LevelEditor/saved.png",
+    "lastModified": "2024-11-07T13:25:13.094Z",
+    "exportCodeName": "saved",
+    "exportCode3DName": "saved",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 249,
+    "height": 90
+}

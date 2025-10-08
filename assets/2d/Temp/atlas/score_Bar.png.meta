@@ -1,0 +1,15 @@
+{
+    "id": "82a9bfe2-40cf-4c80-a040-19d385b53fab",
+    "name": "score_Bar.png",
+    "originalFilePath": "assets/2d/Temp/atlas/score_Bar.png",
+    "type": "image",
+    "size": 8244,
+    "path": "assets/2d/Temp/atlas/score_Bar.png.meta",
+    "lastModified": "2024-07-03T10:51:39.770Z",
+    "isNew": false,
+    "exportCodeName": "score_Bar",
+    "exportCode3DName": "score_Bar",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

@@ -1,0 +1,20 @@
+{
+    "id": "37aebac0-407b-414a-9de2-59f7e86a81e3",
+    "name": "blue_piece_bg.jpg",
+    "originalFilePath": "assets/2d/Temp/atlas/blue_piece_bg.jpg",
+    "type": "image",
+    "size": 4065,
+    "path": "assets/2d/Temp/atlas/blue_piece_bg.jpg.meta",
+    "lastModified": "2024-07-03T10:51:39.696Z",
+    "isNew": false,
+    "exportCodeName": "blue_piece_bg",
+    "exportCode3DName": "blue_piece_bg",
+    "enableAtlas": false,
+    "enableTiny": true,
+    "exportForCode": true,
+    "__hidden": true,
+    "width": 140,
+    "height": 141,
+    "fileHash": "46ec7f06d66f15af86e062a5144edae9a52978c444dc73975474e653bc2d320a",
+    "fileMtime": 1759903581303
+}

@@ -1,0 +1,15 @@
+{
+    "id": "e619460b-94b9-4cf3-b92d-f37630e4c51a",
+    "name": "bombyellow.png",
+    "originalFilePath": "assets/2d/Temp/atlas/bombyellow.png",
+    "type": "image",
+    "size": 40070,
+    "path": "assets/2d/Temp/atlas/bombyellow.png.meta",
+    "lastModified": "2024-07-03T10:51:39.788Z",
+    "isNew": false,
+    "exportCodeName": "bombyellow",
+    "exportCode3DName": "bombyellow",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

@@ -1,0 +1,15 @@
+{
+    "id": "e32a835c-4fe5-4d7b-a909-5afbf567caa6",
+    "name": "hand.png",
+    "originalFilePath": "assets/2d/Temp/atlas/hand.png",
+    "type": "image",
+    "size": 10355,
+    "path": "assets/2d/Temp/atlas/hand.png.meta",
+    "lastModified": "2024-07-03T10:51:40.125Z",
+    "isNew": false,
+    "exportCodeName": "hand",
+    "exportCode3DName": "hand",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

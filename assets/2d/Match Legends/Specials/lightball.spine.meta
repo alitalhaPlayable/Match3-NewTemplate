@@ -1,0 +1,13 @@
+{
+    "id": "cde226e0-137d-42b4-8562-182be3d17211",
+    "name": "lightball.spine",
+    "originalFilePath": "assets/2d/Match Legends/Specials/lightball.spine",
+    "type": "spine",
+    "size": 425414,
+    "path": "assets/2d/Match Legends/Specials/lightball.spine",
+    "lastModified": "2025-01-13T16:31:15.965Z",
+    "exportCodeName": "LightBall",
+    "enableTiny": true,
+    "__hidden": true,
+    "exportForCode": true
+}

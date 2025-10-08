@@ -1,0 +1,20 @@
+{
+    "id": "0c490174-03fb-4862-b7aa-1c6229f65219",
+    "name": "bg.jpg",
+    "originalFilePath": "assets/2d/Temp/atlas/bg.jpg",
+    "type": "image",
+    "size": 134366,
+    "path": "assets/2d/Temp/atlas/bg.jpg.meta",
+    "lastModified": "2024-07-26T08:17:09.522Z",
+    "isNew": false,
+    "exportCodeName": "bg",
+    "exportCode3DName": "bg",
+    "enableAtlas": false,
+    "enableTiny": true,
+    "exportForCode": false,
+    "__hidden": true,
+    "width": 1920,
+    "height": 1300,
+    "fileHash": "f460ce54eadfcb389f988a789cb899c63bfeff78c820b42a177eab3dd6182b88",
+    "fileMtime": 1759903581260
+}

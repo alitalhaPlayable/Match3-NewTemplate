@@ -1,0 +1,15 @@
+{
+    "id": "c6e36774-c8cc-4209-9bdf-c54eb4084b9e",
+    "name": "vs_popUp.png",
+    "originalFilePath": "assets/2d/Temp/atlas/vs_popUp.png",
+    "type": "image",
+    "size": 6029,
+    "path": "assets/2d/Temp/atlas/vs_popUp.png.meta",
+    "lastModified": "2024-07-03T10:51:39.443Z",
+    "isNew": false,
+    "exportCodeName": "vs_popUp",
+    "exportCode3DName": "vs_popUp",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

@@ -1,0 +1,15 @@
+{
+    "id": "39a0c103-b5e2-42df-a7c0-2c838310cd89",
+    "name": "purple.png",
+    "originalFilePath": "assets/2d/Temp/atlas/purple.png",
+    "type": "image",
+    "size": 26627,
+    "path": "assets/2d/Temp/atlas/purple.png.meta",
+    "lastModified": "2024-07-03T10:51:40.845Z",
+    "isNew": false,
+    "exportCodeName": "purple",
+    "exportCode3DName": "purple",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

@@ -1,0 +1,15 @@
+{
+    "id": "2caa18ca-9a85-4440-ba88-11743300d259",
+    "name": "blue_activate_pushed.png",
+    "originalFilePath": "assets/2d/Temp/atlas/blue_activate_pushed.png",
+    "type": "image",
+    "size": 8081,
+    "path": "assets/2d/Temp/atlas/blue_activate_pushed.png.meta",
+    "lastModified": "2024-07-03T10:51:40.792Z",
+    "isNew": false,
+    "exportCodeName": "blue_activate_pushed",
+    "exportCode3DName": "blue_activate_pushed",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

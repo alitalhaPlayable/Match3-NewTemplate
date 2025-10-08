@@ -1,0 +1,20 @@
+{
+    "id": "49edfbc9-23cc-4f02-b7be-6eae3a26ac8a",
+    "name": "bottom_ui.png",
+    "originalFilePath": "assets/2d/Temp/atlas/bottom_ui.png",
+    "type": "image",
+    "size": 8611,
+    "path": "assets/2d/Temp/atlas/bottom_ui.png.meta",
+    "lastModified": "2024-07-03T10:51:39.805Z",
+    "isNew": false,
+    "exportCodeName": "bottom_ui",
+    "exportCode3DName": "bottom_ui",
+    "enableAtlas": false,
+    "enableTiny": true,
+    "exportForCode": false,
+    "__hidden": true,
+    "width": 1440,
+    "height": 160,
+    "fileHash": "358460c9bedbe8daca775b929ad16b5d00a1deba421f57fccc0fb94fcbfb9511",
+    "fileMtime": 1759903581352
+}

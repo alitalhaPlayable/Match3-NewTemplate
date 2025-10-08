@@ -1,0 +1,15 @@
+{
+    "id": "fb032876-d79d-4f18-a530-8bcbb0c72a6c",
+    "name": "lightballblue.png",
+    "originalFilePath": "assets/2d/Temp/atlas/lightballblue.png",
+    "type": "image",
+    "size": 42689,
+    "path": "assets/2d/Temp/atlas/lightballblue.png.meta",
+    "lastModified": "2024-07-03T10:51:40.215Z",
+    "isNew": false,
+    "exportCodeName": "lightballblue",
+    "exportCode3DName": "lightballblue",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

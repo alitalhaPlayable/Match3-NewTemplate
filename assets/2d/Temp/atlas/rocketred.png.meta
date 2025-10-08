@@ -1,0 +1,15 @@
+{
+    "id": "64ef59fb-0e7f-4ccc-80c4-ef32fb9c52b5",
+    "name": "rocketred.png",
+    "originalFilePath": "assets/2d/Temp/atlas/rocketred.png",
+    "type": "image",
+    "size": 31222,
+    "path": "assets/2d/Temp/atlas/rocketred.png.meta",
+    "lastModified": "2024-07-03T10:51:40.363Z",
+    "isNew": false,
+    "exportCodeName": "rocketred",
+    "exportCode3DName": "rocketred",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

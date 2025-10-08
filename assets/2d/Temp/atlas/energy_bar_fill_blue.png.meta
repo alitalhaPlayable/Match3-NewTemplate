@@ -1,0 +1,15 @@
+{
+    "id": "7d6b6499-30cf-402b-a663-669e9e92ffea",
+    "name": "energy_bar_fill_blue.png",
+    "originalFilePath": "assets/2d/Temp/atlas/energy_bar_fill_blue.png",
+    "type": "image",
+    "size": 3671,
+    "path": "assets/2d/Temp/atlas/energy_bar_fill_blue.png.meta",
+    "lastModified": "2024-07-03T10:51:39.588Z",
+    "isNew": false,
+    "exportCodeName": "energy_bar_fill_blue",
+    "exportCode3DName": "energy_bar_fill_blue",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

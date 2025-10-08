@@ -1,0 +1,20 @@
+{
+    "id": "ae167655-9ceb-4233-b88f-26df0f1a057d",
+    "name": "bar_bg.png",
+    "originalFilePath": "assets/2d/Temp/atlas/bar_bg.png",
+    "type": "image",
+    "size": 6951,
+    "path": "assets/2d/Temp/atlas/bar_bg.png.meta",
+    "lastModified": "2024-07-03T10:51:40.643Z",
+    "isNew": false,
+    "exportCodeName": "bar_bg",
+    "exportCode3DName": "bar_bg",
+    "enableAtlas": false,
+    "enableTiny": true,
+    "exportForCode": false,
+    "__hidden": true,
+    "width": 1051,
+    "height": 82,
+    "fileHash": "193f31fa39de2fe54a0fb9997ea3ed01373c3f2c59eba2873aff086a7089074c",
+    "fileMtime": 1759903581240
+}

@@ -1,0 +1,15 @@
+{
+    "id": "21195023-d18d-475a-b60e-207c8e73b61c",
+    "name": "piece_bgGlow.png",
+    "originalFilePath": "assets/2d/Temp/atlas/piece_bgGlow.png",
+    "type": "image",
+    "size": 7542,
+    "path": "assets/2d/Temp/atlas/piece_bgGlow.png.meta",
+    "lastModified": "2024-07-03T10:51:39.966Z",
+    "isNew": false,
+    "exportCodeName": "piece_bgGlow",
+    "exportCode3DName": "piece_bgGlow",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

@@ -1,0 +1,15 @@
+{
+    "id": "7ed7788e-808a-4fce-97f0-bac9bfff0806",
+    "name": "rocketorange.png",
+    "originalFilePath": "assets/2d/Temp/atlas/rocketorange.png",
+    "type": "image",
+    "size": 30804,
+    "path": "assets/2d/Temp/atlas/rocketorange.png.meta",
+    "lastModified": "2024-07-03T10:51:39.678Z",
+    "isNew": false,
+    "exportCodeName": "rocketorange",
+    "exportCode3DName": "rocketorange",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

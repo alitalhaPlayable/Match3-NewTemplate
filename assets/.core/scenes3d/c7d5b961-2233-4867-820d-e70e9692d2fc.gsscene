@@ -52,7 +52,7 @@
                         },
                         "debug": false,
                         "castShadow": true,
-                        "bias": -0.00025,
+                        "bias": -0.0001,
                         "shadowMapSize": 1024,
                         "shadowAreaSize": 10
                     }
@@ -184,7 +184,7 @@
     "settings": {
         "type": "scene",
         "backgroundType": "solid",
-        "backgroundColor1": "#5e5e5e",
+        "backgroundColor1": "#ffb3b3",
         "backgroundColor2": "#3b2eab",
         "backgroundImage": "022785de-f1b3-4829-a5da-d2b0eb1ff9c0",
         "fog": false,

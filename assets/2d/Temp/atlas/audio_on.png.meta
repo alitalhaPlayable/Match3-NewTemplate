@@ -1,0 +1,15 @@
+{
+    "id": "d2a6d6d3-d196-4b1e-9785-0611a4bf1bda",
+    "name": "audio_on.png",
+    "originalFilePath": "assets/2d/Temp/atlas/audio_on.png",
+    "type": "image",
+    "size": 3895,
+    "path": "assets/2d/Temp/atlas/audio_on.png.meta",
+    "lastModified": "2024-07-03T10:51:39.984Z",
+    "isNew": false,
+    "exportCodeName": "audio_on",
+    "exportCode3DName": "audio_on",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

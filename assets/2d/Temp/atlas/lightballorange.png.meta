@@ -1,0 +1,15 @@
+{
+    "id": "58580d9d-8d41-4289-9b9b-f08719354248",
+    "name": "lightballorange.png",
+    "originalFilePath": "assets/2d/Temp/atlas/lightballorange.png",
+    "type": "image",
+    "size": 35005,
+    "path": "assets/2d/Temp/atlas/lightballorange.png.meta",
+    "lastModified": "2024-07-03T10:51:39.948Z",
+    "isNew": false,
+    "exportCodeName": "lightballorange",
+    "exportCode3DName": "lightballorange",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

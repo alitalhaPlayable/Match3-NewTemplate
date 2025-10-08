@@ -1,0 +1,15 @@
+{
+    "id": "a8e78c7b-4527-4020-bb16-8c2ad228727a",
+    "name": "player.png",
+    "originalFilePath": "assets/2d/Temp/atlas/player.png",
+    "type": "image",
+    "size": 15667,
+    "path": "assets/2d/Temp/atlas/player.png.meta",
+    "lastModified": "2024-07-03T10:51:40.827Z",
+    "isNew": false,
+    "exportCodeName": "player",
+    "exportCode3DName": "player",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

@@ -1,0 +1,18 @@
+{
+    "id": "c99b32d5-9cfa-40e0-b689-c16d04f1f813",
+    "name": "door_L_red.png",
+    "originalFilePath": "assets/2d/export_vol_0/Map/doors/door_L_red.png",
+    "type": "image",
+    "size": 4366,
+    "path": "assets/2d/export_vol_0/Map/doors/door_L_red.png",
+    "lastModified": "2024-11-08T12:56:06.501Z",
+    "isNew": false,
+    "exportCodeName": "door_L_red",
+    "exportCode3DName": "door_L_red",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 112,
+    "height": 66,
+    "__hidden": true
+}

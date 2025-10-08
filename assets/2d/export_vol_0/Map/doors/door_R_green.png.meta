@@ -1,0 +1,18 @@
+{
+    "id": "77e066c8-e140-446b-ada5-96fd83ee5124",
+    "name": "door_R_green.png",
+    "originalFilePath": "assets/2d/export_vol_0/Map/doors/door_R_green.png",
+    "type": "image",
+    "size": 4084,
+    "path": "assets/2d/export_vol_0/Map/doors/door_R_green.png",
+    "lastModified": "2024-11-08T12:56:06.560Z",
+    "isNew": false,
+    "exportCodeName": "door_R_green",
+    "exportCode3DName": "door_R_green",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 112,
+    "height": 66,
+    "__hidden": true
+}

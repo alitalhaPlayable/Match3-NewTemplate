@@ -1,0 +1,15 @@
+{
+    "id": "0ed798bb-f908-4ddd-8ac4-e9fc4bf9345b",
+    "name": "you_win.png",
+    "originalFilePath": "assets/2d/Temp/atlas/you_win.png",
+    "type": "image",
+    "size": 92154,
+    "path": "assets/2d/Temp/atlas/you_win.png.meta",
+    "lastModified": "2024-07-03T10:51:40.477Z",
+    "isNew": false,
+    "exportCodeName": "you_win",
+    "exportCode3DName": "you_win",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

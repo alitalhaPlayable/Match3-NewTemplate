@@ -1,0 +1,15 @@
+{
+    "id": "020c4d5f-0ad8-4a4a-8e29-9f692627b5bf",
+    "name": "rocketblue.png",
+    "originalFilePath": "assets/2d/Temp/atlas/rocketblue.png",
+    "type": "image",
+    "size": 31729,
+    "path": "assets/2d/Temp/atlas/rocketblue.png.meta",
+    "lastModified": "2024-07-03T10:51:39.876Z",
+    "isNew": false,
+    "exportCodeName": "rocketblue",
+    "exportCode3DName": "rocketblue",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

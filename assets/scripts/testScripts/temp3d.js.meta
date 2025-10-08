@@ -1,0 +1,160 @@
+{
+    "id": "cec008a8-0ec3-4772-b236-af5e35670042",
+    "name": "temp3d.js",
+    "originalFilePath": "assets/scripts/testScripts/temp3d.js",
+    "type": "unknown",
+    "size": 1367,
+    "path": "assets/scripts/testScripts/temp3d.js",
+    "lastModified": "2024-05-29T20:17:34.799Z",
+    "isNew": false,
+    "variables": [
+        {
+            "type": "Vector3",
+            "name": "testVar",
+            "value": {
+                "x": 33,
+                "y": 22,
+                "z": 11
+            },
+            "order": 1
+        },
+        {
+            "type": "Vector2",
+            "name": "testVek3",
+            "value": {
+                "x": 3,
+                "y": 5
+            },
+            "order": 2
+        },
+        {
+            "type": "Number",
+            "name": "testNumber",
+            "value": 8,
+            "order": 3
+        },
+        {
+            "type": "String",
+            "name": "testString",
+            "value": "test 'something' else",
+            "order": 4
+        },
+        {
+            "type": "Boolean",
+            "name": "testBool",
+            "value": true,
+            "order": 5
+        },
+        {
+            "type": "Color",
+            "name": "testColor",
+            "value": "#40277a",
+            "order": 6
+        },
+        {
+            "type": "PerspectiveCamera",
+            "name": "testObject",
+            "value": null,
+            "order": 7
+        },
+        {
+            "type": "AmbientLight",
+            "name": "testAmbientLight",
+            "value": null,
+            "order": 8
+        },
+        {
+            "type": "ABShield",
+            "name": "ffSZZZhield",
+            "value": null,
+            "order": 9
+        },
+        {
+            "type": "Temp3d",
+            "name": "testDirectionalLight",
+            "value": null,
+            "order": 10
+        },
+        {
+            "type": "params",
+            "name": "testParams",
+            "value": null,
+            "order": 11
+        }
+    ],
+    "originalData": [
+        {
+            "type": "Vector3",
+            "name": "testVar",
+            "value": {
+                "x": 33,
+                "y": 22,
+                "z": 11
+            },
+            "order": 1
+        },
+        {
+            "type": "Vector2",
+            "name": "testVek3",
+            "value": {
+                "x": 3,
+                "y": 5
+            },
+            "order": 2
+        },
+        {
+            "type": "Number",
+            "name": "testNumber",
+            "value": 8,
+            "order": 3
+        },
+        {
+            "type": "String",
+            "name": "testString",
+            "value": "test 'something' else",
+            "order": 4
+        },
+        {
+            "type": "Boolean",
+            "name": "testBool",
+            "value": true,
+            "order": 5
+        },
+        {
+            "type": "Color",
+            "name": "testColor",
+            "value": "#40277a",
+            "order": 6
+        },
+        {
+            "type": "PerspectiveCamera",
+            "name": "testObject",
+            "value": null,
+            "order": 7
+        },
+        {
+            "type": "AmbientLight",
+            "name": "testAmbientLight",
+            "value": null,
+            "order": 8
+        },
+        {
+            "type": "ABShield",
+            "name": "ffSZZZhield",
+            "value": null,
+            "order": 9
+        },
+        {
+            "type": "Temp3d",
+            "name": "testDirectionalLight",
+            "value": null,
+            "order": 10
+        },
+        {
+            "type": "params",
+            "name": "testParams",
+            "value": null,
+            "order": 11
+        }
+    ]
+}

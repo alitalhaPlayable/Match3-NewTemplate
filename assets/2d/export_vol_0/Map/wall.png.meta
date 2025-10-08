@@ -1,0 +1,20 @@
+{
+    "id": "474f2718-b7bb-4438-84ad-487e4da042d1",
+    "name": "wall.png",
+    "originalFilePath": "assets/2d/export_vol_0/Map/wall.png",
+    "type": "image",
+    "size": 156723,
+    "path": "assets/2d/export_vol_0/Map/wall.png",
+    "lastModified": "2024-11-08T12:55:42.958Z",
+    "isNew": false,
+    "exportCodeName": "wall",
+    "exportCode3DName": "wall",
+    "enableAtlas": false,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 274,
+    "height": 2028,
+    "__hidden": true,
+    "fileHash": "59c1d5c7f87082318fa1916ad4bb6878cf9b38ef9cb75229a12ebf95bd03bd6b",
+    "fileMtime": 1759903580966
+}

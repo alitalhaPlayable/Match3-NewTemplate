@@ -1,0 +1,15 @@
+{
+    "id": "14844346-dfc5-459b-8586-a6a94dd9c640",
+    "name": "blue_particle.png",
+    "originalFilePath": "assets/2d/Temp/atlas/blue_particle.png",
+    "type": "image",
+    "size": 267,
+    "path": "assets/2d/Temp/atlas/blue_particle.png.meta",
+    "lastModified": "2024-07-03T10:51:40.233Z",
+    "isNew": false,
+    "exportCodeName": "blue_particle",
+    "exportCode3DName": "blue_particle",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

@@ -59,6 +59,13 @@ jsStuffs.processResults = function (results) {
 	///do not change/remove between these 2 comments!!!!
 	/*START STUFFS*/
 const AudioPool = {
+  "audioSprite": {
+        id: "audioSprite",
+        key: "audioSprite",
+        type: "audioSprite",
+        src: require("@assets/.core/audio/audio-sprite/audio-sprite-compressed.m4a"),
+        json: require("@assets/.core/audio/audio-sprite/audio-sprite.json"),
+    },
 };
         // #if process.projConfig.generalSettings.enableAudio
         if(results.soundEnabled || results.soundEnabled === undefined) {

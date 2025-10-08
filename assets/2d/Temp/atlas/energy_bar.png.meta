@@ -1,0 +1,15 @@
+{
+    "id": "045e2ecc-81d7-44d1-be39-bc70819731e4",
+    "name": "energy_bar.png",
+    "originalFilePath": "assets/2d/Temp/atlas/energy_bar.png",
+    "type": "image",
+    "size": 2255,
+    "path": "assets/2d/Temp/atlas/energy_bar.png.meta",
+    "lastModified": "2024-07-03T10:51:40.569Z",
+    "isNew": false,
+    "exportCodeName": "energy_bar",
+    "exportCode3DName": "energy_bar",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

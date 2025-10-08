@@ -1,0 +1,15 @@
+{
+    "id": "eeed2186-af6d-4028-9ebf-8b62ff99a53c",
+    "name": "effect.png",
+    "originalFilePath": "assets/2d/Temp/atlas/effect.png",
+    "type": "image",
+    "size": 10081,
+    "path": "assets/2d/Temp/atlas/effect.png.meta",
+    "lastModified": "2024-07-03T10:51:39.930Z",
+    "isNew": false,
+    "exportCodeName": "effect",
+    "exportCode3DName": "effect",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

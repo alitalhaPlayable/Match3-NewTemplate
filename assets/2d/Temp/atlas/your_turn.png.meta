@@ -1,0 +1,15 @@
+{
+    "id": "e32d0bbb-9680-45a3-a4ed-1420822d40ca",
+    "name": "your_turn.png",
+    "originalFilePath": "assets/2d/Temp/atlas/your_turn.png",
+    "type": "image",
+    "size": 12581,
+    "path": "assets/2d/Temp/atlas/your_turn.png.meta",
+    "lastModified": "2024-07-03T10:51:40.773Z",
+    "isNew": false,
+    "exportCodeName": "your_turn",
+    "exportCode3DName": "your_turn",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

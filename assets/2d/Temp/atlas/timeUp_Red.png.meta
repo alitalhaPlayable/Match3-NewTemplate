@@ -1,0 +1,15 @@
+{
+    "id": "ba24396d-cd8d-480b-9cca-6bc1ceb9fcd5",
+    "name": "timeUp_Red.png",
+    "originalFilePath": "assets/2d/Temp/atlas/timeUp_Red.png",
+    "type": "image",
+    "size": 11134,
+    "path": "assets/2d/Temp/atlas/timeUp_Red.png.meta",
+    "lastModified": "2024-07-03T10:51:40.037Z",
+    "isNew": false,
+    "exportCodeName": "timeUp_Red",
+    "exportCode3DName": "timeUp_Red",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

@@ -1,0 +1,15 @@
+{
+    "id": "528ea36f-1eec-4b36-a3d7-637462d5f916",
+    "name": "pvp_round_bgPink_selected.png",
+    "originalFilePath": "assets/2d/Temp/atlas/pvp_round_bgPink_selected.png",
+    "type": "image",
+    "size": 3547,
+    "path": "assets/2d/Temp/atlas/pvp_round_bgPink_selected.png.meta",
+    "lastModified": "2024-07-03T10:51:39.733Z",
+    "isNew": false,
+    "exportCodeName": "pvp_round_bgPink_selected",
+    "exportCode3DName": "pvp_round_bgPink_selected",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

@@ -1,0 +1,3118 @@
+{
+    "name": "Editor",
+    "id": "d69f2bad-e97f-40aa-93a5-80f6dd19b64b",
+    "type": "2D",
+    "root": {
+        "id": "ROOT",
+        "name": "ROOT",
+        "children": [
+            {
+                "name": "BG",
+                "type": "sprite",
+                "id": "8344708a-b8b0-493f-a927-049630fbcf39",
+                "components": {
+                    "node2D": {
+                        "type": "node2D",
+                        "label": "BG",
+                        "visible": true,
+                        "alpha": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "angle": 0,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "skew": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zIndex": 0,
+                        "mask": "",
+                        "invertAlpha": false,
+                        "eventMode": "passive",
+                        "optionalLoad": false,
+                        "optionalLoadID": "",
+                        "blendMode": "inherit"
+                    },
+                    "sprite": {
+                        "type": "sprite",
+                        "texture": {
+                            "type": "texture",
+                            "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                            "uploadId": "",
+                            "stuffs": null,
+                            "stuffsDataId": "mew6vh",
+                            "localPath": "assets/2d/white.png"
+                        },
+                        "landscapeTexture": {
+                            "type": "texture",
+                            "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                            "uploadId": "",
+                            "stuffs": null,
+                            "stuffsDataId": "ck9qoj",
+                            "localPath": "assets/2d/white.png"
+                        },
+                        "landscape": false,
+                        "tint": "#000000"
+                    },
+                    "responsive2D": {
+                        "type": "responsive2D",
+                        "resizes": {
+                            "2e37b7c4-7626-4512-a2df-6214e8096d6d": {
+                                "isActive": true,
+                                "selected": "portrait",
+                                "portrait": {
+                                    "width": 100,
+                                    "height": 100,
+                                    "fitType": "stretch",
+                                    "origin": "center",
+                                    "referenceBottom": "",
+                                    "referenceTop": "",
+                                    "referenceLeft": "",
+                                    "referenceRight": "",
+                                    "verticalSpace": 0,
+                                    "horizontalSpace": 0,
+                                    "verticalSpaceUnit": "%",
+                                    "horizontalSpaceUnit": "%"
+                                },
+                                "landscape": {
+                                    "enabled": false,
+                                    "width": 50,
+                                    "height": 50,
+                                    "fitType": "min",
+                                    "origin": "center",
+                                    "referenceBottom": "",
+                                    "referenceTop": "",
+                                    "referenceLeft": "",
+                                    "referenceRight": "",
+                                    "verticalSpace": 0,
+                                    "horizontalSpace": 0,
+                                    "verticalSpaceUnit": "%",
+                                    "horizontalSpaceUnit": "%"
+                                },
+                                "settings": {
+                                    "enablePosition": true,
+                                    "enableScale": true
+                                }
+                            }
+                        }
+                    }
+                },
+                "children": [],
+                "hidden": false
+            },
+            {
+                "name": "Board",
+                "type": "container",
+                "id": "a2f1c301-8035-4f5f-aa1b-67cc1399c4a1",
+                "components": {
+                    "node2D": {
+                        "type": "node2D",
+                        "label": "Board",
+                        "visible": true,
+                        "alpha": 1,
+                        "position": {
+                            "x": 187.5,
+                            "y": 333.5,
+                            "linked": false
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "angle": 0,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "skew": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zIndex": 0,
+                        "mask": "",
+                        "invertAlpha": false,
+                        "eventMode": "passive",
+                        "optionalLoad": false,
+                        "optionalLoadID": "",
+                        "blendMode": "inherit"
+                    },
+                    "container": {
+                        "type": "container",
+                        "debug": true,
+                        "width": 200,
+                        "height": 200,
+                        "landscape": false,
+                        "landscapeWidth": 100,
+                        "landscapeHeight": 100
+                    },
+                    "responsive2D": {
+                        "type": "responsive2D",
+                        "resizes": {
+                            "2e37b7c4-7626-4512-a2df-6214e8096d6d": {
+                                "isActive": true,
+                                "selected": "portrait",
+                                "portrait": {
+                                    "width": 70,
+                                    "height": 70,
+                                    "fitType": "min",
+                                    "origin": "center",
+                                    "referenceBottom": "",
+                                    "referenceTop": "",
+                                    "referenceLeft": "",
+                                    "referenceRight": "",
+                                    "verticalSpace": 0,
+                                    "horizontalSpace": 0,
+                                    "verticalSpaceUnit": "%",
+                                    "horizontalSpaceUnit": "%"
+                                },
+                                "landscape": {
+                                    "enabled": false,
+                                    "width": 50,
+                                    "height": 50,
+                                    "fitType": "min",
+                                    "origin": "center",
+                                    "referenceBottom": "",
+                                    "referenceTop": "",
+                                    "referenceLeft": "",
+                                    "referenceRight": "",
+                                    "verticalSpace": 0,
+                                    "horizontalSpace": 0,
+                                    "verticalSpaceUnit": "%",
+                                    "horizontalSpaceUnit": "%"
+                                },
+                                "settings": {
+                                    "enablePosition": true,
+                                    "enableScale": true
+                                }
+                            }
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "boardGlow",
+                        "type": "sprite",
+                        "id": "fddd3e9d-1d73-48fb-bb06-42e82e98b89e",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "boardGlow",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 100,
+                                    "y": 98
+                                },
+                                "scale": {
+                                    "x": 0.4166666666666667,
+                                    "y": 0.4166666666666667
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit"
+                            },
+                            "sprite": {
+                                "type": "sprite",
+                                "texture": {
+                                    "type": "texture",
+                                    "path": "45ad4e95-5171-4c3d-9acf-14874de53fe9",
+                                    "uploadId": "",
+                                    "stuffs": null,
+                                    "stuffsDataId": "mew6vh",
+                                    "localPath": "assets/2d/white.png"
+                                },
+                                "landscapeTexture": {
+                                    "type": "texture",
+                                    "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                    "uploadId": "",
+                                    "stuffs": null,
+                                    "stuffsDataId": "ck9qoj",
+                                    "localPath": "assets/2d/white.png"
+                                },
+                                "landscape": false,
+                                "tint": "#FFFFFF"
+                            },
+                            "responsive2D": {
+                                "type": "responsive2D",
+                                "resizes": {
+                                    "2e37b7c4-7626-4512-a2df-6214e8096d6d": {
+                                        "isActive": true,
+                                        "selected": "portrait",
+                                        "portrait": {
+                                            "width": 120,
+                                            "height": 120,
+                                            "fitType": "min",
+                                            "origin": "center",
+                                            "referenceBottom": "",
+                                            "referenceTop": "",
+                                            "referenceLeft": "",
+                                            "referenceRight": "",
+                                            "verticalSpace": -1,
+                                            "horizontalSpace": 0,
+                                            "verticalSpaceUnit": "%",
+                                            "horizontalSpaceUnit": "%"
+                                        },
+                                        "landscape": {
+                                            "enabled": false,
+                                            "width": 50,
+                                            "height": 50,
+                                            "fitType": "min",
+                                            "origin": "center",
+                                            "referenceBottom": "",
+                                            "referenceTop": "",
+                                            "referenceLeft": "",
+                                            "referenceRight": "",
+                                            "verticalSpace": 0,
+                                            "horizontalSpace": 0,
+                                            "verticalSpaceUnit": "%",
+                                            "horizontalSpaceUnit": "%"
+                                        },
+                                        "settings": {
+                                            "enablePosition": true,
+                                            "enableScale": true
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "name": "boardContain",
+                        "type": "container",
+                        "id": "50fb9119-1559-4bf7-b33c-c1a11638dff0",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "boardContain",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 100,
+                                    "y": 100,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": null,
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit"
+                            },
+                            "container": {
+                                "type": "container",
+                                "debug": true,
+                                "width": 200,
+                                "height": 200,
+                                "landscape": false,
+                                "landscapeWidth": 100,
+                                "landscapeHeight": 100
+                            },
+                            "scripts": {
+                                "type": "scripts",
+                                "scripts": {
+                                    "66e918b1-4331-4eec-8029-68f5cc957ff6": {
+                                        "id": "66e918b1-4331-4eec-8029-68f5cc957ff6",
+                                        "name": "levelEditor.js",
+                                        "variables": {},
+                                        "order": 1
+                                    }
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "boardBg",
+                                "type": "sprite",
+                                "id": "863bc262-a92b-42f4-99d8-c50441fef65d",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "boardBg",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit"
+                                    },
+                                    "sprite": {
+                                        "type": "sprite",
+                                        "texture": {
+                                            "type": "texture",
+                                            "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "mew6vh",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscapeTexture": {
+                                            "type": "texture",
+                                            "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "ck9qoj",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscape": false,
+                                        "tint": "#1c014d"
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "2e37b7c4-7626-4512-a2df-6214e8096d6d": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 100,
+                                                    "height": 100,
+                                                    "fitType": "stretch",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            }
+                        ],
+                        "open": false
+                    },
+                    {
+                        "name": "boardFrame",
+                        "type": "sprite",
+                        "id": "dae0dfa8-36cf-4aae-b3f0-31beb2bbf2b1",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "boardFrame",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 100.00000000000006,
+                                    "y": 99.99999999999997
+                                },
+                                "scale": {
+                                    "x": 0.41237113402061853,
+                                    "y": 0.41237113402061853
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit"
+                            },
+                            "sprite": {
+                                "type": "sprite",
+                                "texture": {
+                                    "type": "texture",
+                                    "path": "9ea2ad2d-a005-4667-ba79-8ba51451c1ae",
+                                    "uploadId": "",
+                                    "stuffs": null,
+                                    "stuffsDataId": "mew6vh",
+                                    "localPath": "assets/2d/white.png"
+                                },
+                                "landscapeTexture": {
+                                    "type": "texture",
+                                    "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                    "uploadId": "",
+                                    "stuffs": null,
+                                    "stuffsDataId": "ck9qoj",
+                                    "localPath": "assets/2d/white.png"
+                                },
+                                "landscape": false,
+                                "tint": "#FFFFFF"
+                            },
+                            "responsive2D": {
+                                "type": "responsive2D",
+                                "resizes": {
+                                    "2e37b7c4-7626-4512-a2df-6214e8096d6d": {
+                                        "isActive": true,
+                                        "selected": "portrait",
+                                        "portrait": {
+                                            "width": 105,
+                                            "height": 105,
+                                            "fitType": "min",
+                                            "origin": "center",
+                                            "referenceBottom": "",
+                                            "referenceTop": "",
+                                            "referenceLeft": "",
+                                            "referenceRight": "",
+                                            "verticalSpace": 0,
+                                            "horizontalSpace": 0,
+                                            "verticalSpaceUnit": "%",
+                                            "horizontalSpaceUnit": "%"
+                                        },
+                                        "landscape": {
+                                            "enabled": false,
+                                            "width": 50,
+                                            "height": 50,
+                                            "fitType": "min",
+                                            "origin": "center",
+                                            "referenceBottom": "",
+                                            "referenceTop": "",
+                                            "referenceLeft": "",
+                                            "referenceRight": "",
+                                            "verticalSpace": 0,
+                                            "horizontalSpace": 0,
+                                            "verticalSpaceUnit": "%",
+                                            "horizontalSpaceUnit": "%"
+                                        },
+                                        "settings": {
+                                            "enablePosition": true,
+                                            "enableScale": true
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "children": []
+                    }
+                ],
+                "open": false
+            },
+            {
+                "name": "SızeBtns",
+                "type": "container",
+                "id": "f58243c1-dff3-4ad0-9d51-1a5b8864cf90",
+                "components": {
+                    "node2D": {
+                        "type": "node2D",
+                        "label": "SızeBtns",
+                        "visible": true,
+                        "alpha": 1,
+                        "position": {
+                            "x": 187.49999999999997,
+                            "y": 67.45081087574579,
+                            "linked": false
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "angle": 0,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "skew": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zIndex": 0,
+                        "mask": "",
+                        "invertAlpha": false,
+                        "eventMode": "passive",
+                        "optionalLoad": false,
+                        "optionalLoadID": "",
+                        "blendMode": "inherit",
+                        "dynamicResize": false,
+                        "dynamicResizeName": "",
+                        "enableMarketRedirection": false
+                    },
+                    "container": {
+                        "type": "container",
+                        "debug": true,
+                        "width": 221,
+                        "height": 100,
+                        "landscape": false,
+                        "landscapeWidth": 100,
+                        "landscapeHeight": 100
+                    },
+                    "responsive2D": {
+                        "type": "responsive2D",
+                        "resizes": {
+                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                "isActive": true,
+                                "selected": "portrait",
+                                "portrait": {
+                                    "width": 40,
+                                    "height": 50,
+                                    "fitType": "min",
+                                    "origin": "top",
+                                    "referenceBottom": "",
+                                    "referenceTop": "",
+                                    "referenceLeft": "",
+                                    "referenceRight": "",
+                                    "verticalSpace": 10,
+                                    "horizontalSpace": 0,
+                                    "verticalSpaceUnit": "%",
+                                    "horizontalSpaceUnit": "%"
+                                },
+                                "landscape": {
+                                    "enabled": false,
+                                    "width": 50,
+                                    "height": 50,
+                                    "fitType": "min",
+                                    "origin": "center",
+                                    "referenceBottom": "",
+                                    "referenceTop": "",
+                                    "referenceLeft": "",
+                                    "referenceRight": "",
+                                    "verticalSpace": 0,
+                                    "horizontalSpace": 0,
+                                    "verticalSpaceUnit": "%",
+                                    "horizontalSpaceUnit": "%"
+                                },
+                                "settings": {
+                                    "enablePosition": true,
+                                    "enableScale": true
+                                }
+                            }
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "increase",
+                        "type": "container",
+                        "id": "847c387a-12e4-4a61-85e2-659761afbc27",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "increase",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 171.14320479957667,
+                                    "y": 50,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1,
+                                    "linked": true
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit",
+                                "dynamicResize": false,
+                                "dynamicResizeName": "",
+                                "enableMarketRedirection": false
+                            },
+                            "container": {
+                                "type": "container",
+                                "debug": true,
+                                "width": 100,
+                                "height": 100,
+                                "landscape": false,
+                                "landscapeWidth": 100,
+                                "landscapeHeight": 100
+                            },
+                            "scripts": {
+                                "type": "scripts",
+                                "scripts": {
+                                    "bf0e1f19-6bff-4eb6-b873-4d387d0f6901": {
+                                        "id": "bf0e1f19-6bff-4eb6-b873-4d387d0f6901",
+                                        "name": "editorEventBtn.js",
+                                        "variables": {
+                                            "eventName": {
+                                                "type": "String",
+                                                "name": "eventName",
+                                                "value": "increaseBoardSize",
+                                                "order": 1
+                                            }
+                                        },
+                                        "order": 1
+                                    }
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "bg",
+                                "type": "sprite",
+                                "id": "b45eb0ee-13c7-47ce-980e-e4f96bf875b7",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "bg",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "sprite": {
+                                        "type": "sprite",
+                                        "texture": {
+                                            "type": "texture",
+                                            "path": "d61b632c-6fe7-4e3d-ae84-98c86663e270",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "arxqq",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscapeTexture": {
+                                            "type": "texture",
+                                            "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "3f67ji",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscape": false,
+                                        "tint": "#FFFFFF"
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 100,
+                                                    "height": 100,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "name": "txt",
+                                "type": "text",
+                                "id": "7d9f7689-87c5-46db-ad36-7e913959247e",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "txt",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "text": {
+                                        "type": "text",
+                                        "fontFamily": "b9ff7b26-6e6c-45df-b32c-1f33aa83912b",
+                                        "resolution": 3,
+                                        "text": "+",
+                                        "align": "center",
+                                        "fontSize": 60,
+                                        "fill": [
+                                            "#000000"
+                                        ],
+                                        "lineHeight": 0,
+                                        "leading": 0,
+                                        "letterSpacing": 0,
+                                        "padding": 0,
+                                        "strokeColor": "#000000",
+                                        "strokeThickness": 5,
+                                        "shadow": {
+                                            "enabled": false,
+                                            "alpha": 1,
+                                            "color": "#000000",
+                                            "blur": 0,
+                                            "angle": 0,
+                                            "distance": 5
+                                        },
+                                        "wordWrap": false,
+                                        "wordWrapWidth": 100,
+                                        "breakWords": true,
+                                        "autofit": false,
+                                        "autofitMultiline": false,
+                                        "autofitMaxFontSize": 60,
+                                        "autofitWidthRatio": 80,
+                                        "autofitHeightRatio": 80
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 80,
+                                                    "height": 80,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": -3,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            }
+                        ],
+                        "open": false
+                    },
+                    {
+                        "name": "decrease",
+                        "type": "container",
+                        "id": "1a24eedc-27fb-4020-b071-a463fb3ee62a",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "decrease",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 50,
+                                    "y": 50.00000000000003,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1,
+                                    "linked": false
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit",
+                                "dynamicResize": false,
+                                "dynamicResizeName": "",
+                                "enableMarketRedirection": false
+                            },
+                            "container": {
+                                "type": "container",
+                                "debug": true,
+                                "width": 100,
+                                "height": 100,
+                                "landscape": false,
+                                "landscapeWidth": 100,
+                                "landscapeHeight": 100
+                            },
+                            "scripts": {
+                                "type": "scripts",
+                                "scripts": {
+                                    "bf0e1f19-6bff-4eb6-b873-4d387d0f6901": {
+                                        "id": "bf0e1f19-6bff-4eb6-b873-4d387d0f6901",
+                                        "name": "editorEventBtn.js",
+                                        "variables": {
+                                            "eventName": {
+                                                "type": "String",
+                                                "name": "eventName",
+                                                "value": "decreaseBoardSize",
+                                                "order": 1
+                                            }
+                                        },
+                                        "order": 1
+                                    }
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "bg",
+                                "type": "sprite",
+                                "id": "a9470def-4232-4cbc-90c1-a0ad37d2696b",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "bg",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "sprite": {
+                                        "type": "sprite",
+                                        "texture": {
+                                            "type": "texture",
+                                            "path": "d61b632c-6fe7-4e3d-ae84-98c86663e270",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "arxqq",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscapeTexture": {
+                                            "type": "texture",
+                                            "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "3f67ji",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscape": false,
+                                        "tint": "#FFFFFF"
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 100,
+                                                    "height": 100,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "name": "txt",
+                                "type": "text",
+                                "id": "f88eddbd-e3d9-42a6-8d37-32ff40418974",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "txt",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "text": {
+                                        "type": "text",
+                                        "fontFamily": "b9ff7b26-6e6c-45df-b32c-1f33aa83912b",
+                                        "resolution": 3,
+                                        "text": "-",
+                                        "align": "center",
+                                        "fontSize": 60,
+                                        "fill": [
+                                            "#000000"
+                                        ],
+                                        "lineHeight": 0,
+                                        "leading": 0,
+                                        "letterSpacing": 0,
+                                        "padding": 0,
+                                        "strokeColor": "#000000",
+                                        "strokeThickness": 5,
+                                        "shadow": {
+                                            "enabled": false,
+                                            "alpha": 1,
+                                            "color": "#000000",
+                                            "blur": 0,
+                                            "angle": 0,
+                                            "distance": 5
+                                        },
+                                        "wordWrap": false,
+                                        "wordWrapWidth": 100,
+                                        "breakWords": true,
+                                        "autofit": false,
+                                        "autofitMultiline": false,
+                                        "autofitMaxFontSize": 60,
+                                        "autofitWidthRatio": 80,
+                                        "autofitHeightRatio": 80
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 80,
+                                                    "height": 80,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": -7,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            }
+                        ],
+                        "open": false
+                    }
+                ],
+                "open": false
+            },
+            {
+                "name": "SpecialBtns",
+                "type": "container",
+                "id": "c37e1e66-9977-412e-9aa6-a1beebfc8b77",
+                "components": {
+                    "node2D": {
+                        "type": "node2D",
+                        "label": "SpecialBtns",
+                        "visible": true,
+                        "alpha": 1,
+                        "position": {
+                            "x": 187.50000000000006,
+                            "y": 149.19335832083965,
+                            "linked": false
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "angle": 0,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "skew": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "zIndex": 0,
+                        "mask": "",
+                        "invertAlpha": false,
+                        "eventMode": "passive",
+                        "optionalLoad": false,
+                        "optionalLoadID": "",
+                        "blendMode": "inherit",
+                        "dynamicResize": false,
+                        "dynamicResizeName": "",
+                        "enableMarketRedirection": false
+                    },
+                    "container": {
+                        "type": "container",
+                        "debug": true,
+                        "width": 580,
+                        "height": 100,
+                        "landscape": false,
+                        "landscapeWidth": 100,
+                        "landscapeHeight": 100
+                    },
+                    "responsive2D": {
+                        "type": "responsive2D",
+                        "resizes": {
+                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                "isActive": true,
+                                "selected": "portrait",
+                                "portrait": {
+                                    "width": 70,
+                                    "height": 50,
+                                    "fitType": "min",
+                                    "origin": "top",
+                                    "referenceBottom": "",
+                                    "referenceTop": "",
+                                    "referenceLeft": "",
+                                    "referenceRight": "",
+                                    "verticalSpace": 23,
+                                    "horizontalSpace": 0,
+                                    "verticalSpaceUnit": "%",
+                                    "horizontalSpaceUnit": "%"
+                                },
+                                "landscape": {
+                                    "enabled": false,
+                                    "width": 50,
+                                    "height": 50,
+                                    "fitType": "min",
+                                    "origin": "center",
+                                    "referenceBottom": "",
+                                    "referenceTop": "",
+                                    "referenceLeft": "",
+                                    "referenceRight": "",
+                                    "verticalSpace": 0,
+                                    "horizontalSpace": 0,
+                                    "verticalSpaceUnit": "%",
+                                    "horizontalSpaceUnit": "%"
+                                },
+                                "settings": {
+                                    "enablePosition": true,
+                                    "enableScale": true
+                                }
+                            }
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "none",
+                        "type": "container",
+                        "id": "29bb53ca-4b58-4df9-8115-4c5af95d0ef1",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "none",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 49.99999999999994,
+                                    "y": 49.99999999999994,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit",
+                                "dynamicResize": false,
+                                "dynamicResizeName": "",
+                                "enableMarketRedirection": false
+                            },
+                            "container": {
+                                "type": "container",
+                                "debug": true,
+                                "width": 100,
+                                "height": 100,
+                                "landscape": false,
+                                "landscapeWidth": 100,
+                                "landscapeHeight": 100
+                            },
+                            "scripts": {
+                                "type": "scripts",
+                                "scripts": {
+                                    "bf0e1f19-6bff-4eb6-b873-4d387d0f6901": {
+                                        "id": "bf0e1f19-6bff-4eb6-b873-4d387d0f6901",
+                                        "name": "editorEventBtn.js",
+                                        "variables": {
+                                            "eventName": {
+                                                "type": "String",
+                                                "name": "eventName",
+                                                "value": "specialPick",
+                                                "order": 1
+                                            },
+                                            "eventType": {
+                                                "type": "String",
+                                                "name": "eventType",
+                                                "value": "",
+                                                "order": 2
+                                            }
+                                        },
+                                        "order": 1
+                                    }
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "bg",
+                                "type": "sprite",
+                                "id": "6e4847c3-c5ab-45a1-87fa-67001a309010",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "bg",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "sprite": {
+                                        "type": "sprite",
+                                        "texture": {
+                                            "type": "texture",
+                                            "path": "d61b632c-6fe7-4e3d-ae84-98c86663e270",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "arxqq",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscapeTexture": {
+                                            "type": "texture",
+                                            "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "3f67ji",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscape": false,
+                                        "tint": "#FFFFFF"
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 100,
+                                                    "height": 100,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "name": "txt",
+                                "type": "text",
+                                "id": "2f795b6d-728a-497c-bc27-fe7fb289eb5a",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "txt",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "text": {
+                                        "type": "text",
+                                        "fontFamily": "b9ff7b26-6e6c-45df-b32c-1f33aa83912b",
+                                        "resolution": 3,
+                                        "text": "0",
+                                        "align": "center",
+                                        "fontSize": 60,
+                                        "fill": [
+                                            "#000000"
+                                        ],
+                                        "lineHeight": 0,
+                                        "leading": 0,
+                                        "letterSpacing": 0,
+                                        "padding": 0,
+                                        "strokeColor": "#000000",
+                                        "strokeThickness": 2,
+                                        "shadow": {
+                                            "enabled": false,
+                                            "alpha": 1,
+                                            "color": "#000000",
+                                            "blur": 0,
+                                            "angle": 0,
+                                            "distance": 5
+                                        },
+                                        "wordWrap": false,
+                                        "wordWrapWidth": 100,
+                                        "breakWords": true,
+                                        "autofit": false,
+                                        "autofitMultiline": false,
+                                        "autofitMaxFontSize": 60,
+                                        "autofitWidthRatio": 80,
+                                        "autofitHeightRatio": 80
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 80,
+                                                    "height": 80,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": -7,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            }
+                        ],
+                        "open": false
+                    },
+                    {
+                        "name": "rocket",
+                        "type": "container",
+                        "id": "3821d272-b7b0-4dd5-8ee3-a84359828312",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "rocket",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 170,
+                                    "y": 50.00000000000003,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit",
+                                "dynamicResize": false,
+                                "dynamicResizeName": "",
+                                "enableMarketRedirection": false
+                            },
+                            "container": {
+                                "type": "container",
+                                "debug": true,
+                                "width": 100,
+                                "height": 100,
+                                "landscape": false,
+                                "landscapeWidth": 100,
+                                "landscapeHeight": 100
+                            },
+                            "scripts": {
+                                "type": "scripts",
+                                "scripts": {
+                                    "bf0e1f19-6bff-4eb6-b873-4d387d0f6901": {
+                                        "id": "bf0e1f19-6bff-4eb6-b873-4d387d0f6901",
+                                        "name": "editorEventBtn.js",
+                                        "variables": {
+                                            "eventName": {
+                                                "type": "String",
+                                                "name": "eventName",
+                                                "value": "specialPick",
+                                                "order": 1
+                                            },
+                                            "eventType": {
+                                                "type": "String",
+                                                "name": "eventType",
+                                                "value": "rocket",
+                                                "order": 2
+                                            }
+                                        },
+                                        "order": 1
+                                    }
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "bg",
+                                "type": "sprite",
+                                "id": "e0cafdd6-6a3d-41e4-93c8-fb44478d554c",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "bg",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "sprite": {
+                                        "type": "sprite",
+                                        "texture": {
+                                            "type": "texture",
+                                            "path": "d61b632c-6fe7-4e3d-ae84-98c86663e270",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "arxqq",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscapeTexture": {
+                                            "type": "texture",
+                                            "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "3f67ji",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscape": false,
+                                        "tint": "#FFFFFF"
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 100,
+                                                    "height": 100,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "name": "txt",
+                                "type": "text",
+                                "id": "e67498f5-0928-43d9-bdeb-c4b60b6044e2",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "txt",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "text": {
+                                        "type": "text",
+                                        "fontFamily": "b9ff7b26-6e6c-45df-b32c-1f33aa83912b",
+                                        "resolution": 3,
+                                        "text": "R",
+                                        "align": "center",
+                                        "fontSize": 60,
+                                        "fill": [
+                                            "#000000"
+                                        ],
+                                        "lineHeight": 0,
+                                        "leading": 0,
+                                        "letterSpacing": 0,
+                                        "padding": 0,
+                                        "strokeColor": "#000000",
+                                        "strokeThickness": 2,
+                                        "shadow": {
+                                            "enabled": false,
+                                            "alpha": 1,
+                                            "color": "#000000",
+                                            "blur": 0,
+                                            "angle": 0,
+                                            "distance": 5
+                                        },
+                                        "wordWrap": false,
+                                        "wordWrapWidth": 100,
+                                        "breakWords": true,
+                                        "autofit": false,
+                                        "autofitMultiline": false,
+                                        "autofitMaxFontSize": 60,
+                                        "autofitWidthRatio": 80,
+                                        "autofitHeightRatio": 80
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 80,
+                                                    "height": 80,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": -7,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            }
+                        ],
+                        "open": false
+                    },
+                    {
+                        "name": "bomb",
+                        "type": "container",
+                        "id": "78294d60-5d0d-47ac-9cc5-d835228ec5ba",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "bomb",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 290,
+                                    "y": 50,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1,
+                                    "linked": true
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit",
+                                "dynamicResize": false,
+                                "dynamicResizeName": "",
+                                "enableMarketRedirection": false
+                            },
+                            "container": {
+                                "type": "container",
+                                "debug": true,
+                                "width": 100,
+                                "height": 100,
+                                "landscape": false,
+                                "landscapeWidth": 100,
+                                "landscapeHeight": 100
+                            },
+                            "scripts": {
+                                "type": "scripts",
+                                "scripts": {
+                                    "bf0e1f19-6bff-4eb6-b873-4d387d0f6901": {
+                                        "id": "bf0e1f19-6bff-4eb6-b873-4d387d0f6901",
+                                        "name": "editorEventBtn.js",
+                                        "variables": {
+                                            "eventName": {
+                                                "type": "String",
+                                                "name": "eventName",
+                                                "value": "specialPick",
+                                                "order": 1
+                                            },
+                                            "eventType": {
+                                                "type": "String",
+                                                "name": "eventType",
+                                                "value": "bomb",
+                                                "order": 2
+                                            }
+                                        },
+                                        "order": 1
+                                    }
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "bg",
+                                "type": "sprite",
+                                "id": "b09c0288-8530-4fa7-907b-4b7a1bed5e8b",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "bg",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "sprite": {
+                                        "type": "sprite",
+                                        "texture": {
+                                            "type": "texture",
+                                            "path": "d61b632c-6fe7-4e3d-ae84-98c86663e270",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "arxqq",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscapeTexture": {
+                                            "type": "texture",
+                                            "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "3f67ji",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscape": false,
+                                        "tint": "#FFFFFF"
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 100,
+                                                    "height": 100,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "name": "txt",
+                                "type": "text",
+                                "id": "5f258bb5-f16f-4ce3-ac2d-bd9352664bd4",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "txt",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "text": {
+                                        "type": "text",
+                                        "fontFamily": "b9ff7b26-6e6c-45df-b32c-1f33aa83912b",
+                                        "resolution": 3,
+                                        "text": "B",
+                                        "align": "center",
+                                        "fontSize": 60,
+                                        "fill": [
+                                            "#000000"
+                                        ],
+                                        "lineHeight": 0,
+                                        "leading": 0,
+                                        "letterSpacing": 0,
+                                        "padding": 0,
+                                        "strokeColor": "#000000",
+                                        "strokeThickness": 2,
+                                        "shadow": {
+                                            "enabled": false,
+                                            "alpha": 1,
+                                            "color": "#000000",
+                                            "blur": 0,
+                                            "angle": 0,
+                                            "distance": 5
+                                        },
+                                        "wordWrap": false,
+                                        "wordWrapWidth": 100,
+                                        "breakWords": true,
+                                        "autofit": false,
+                                        "autofitMultiline": false,
+                                        "autofitMaxFontSize": 60,
+                                        "autofitWidthRatio": 80,
+                                        "autofitHeightRatio": 80
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 80,
+                                                    "height": 80,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": -3,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            }
+                        ],
+                        "open": false
+                    },
+                    {
+                        "name": "lightball",
+                        "type": "container",
+                        "id": "7595b911-d8cf-46f4-a784-528558de99ef",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "lightball",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 409.99999999999994,
+                                    "y": 50,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1,
+                                    "linked": true
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit",
+                                "dynamicResize": false,
+                                "dynamicResizeName": "",
+                                "enableMarketRedirection": false
+                            },
+                            "container": {
+                                "type": "container",
+                                "debug": true,
+                                "width": 100,
+                                "height": 100,
+                                "landscape": false,
+                                "landscapeWidth": 100,
+                                "landscapeHeight": 100
+                            },
+                            "scripts": {
+                                "type": "scripts",
+                                "scripts": {
+                                    "bf0e1f19-6bff-4eb6-b873-4d387d0f6901": {
+                                        "id": "bf0e1f19-6bff-4eb6-b873-4d387d0f6901",
+                                        "name": "editorEventBtn.js",
+                                        "variables": {
+                                            "eventName": {
+                                                "type": "String",
+                                                "name": "eventName",
+                                                "value": "specialPick",
+                                                "order": 1
+                                            },
+                                            "eventType": {
+                                                "type": "String",
+                                                "name": "eventType",
+                                                "value": "lightball",
+                                                "order": 2
+                                            }
+                                        },
+                                        "order": 1
+                                    }
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "bg",
+                                "type": "sprite",
+                                "id": "96b16a04-73f4-446e-a215-4e8ce141241d",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "bg",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "sprite": {
+                                        "type": "sprite",
+                                        "texture": {
+                                            "type": "texture",
+                                            "path": "d61b632c-6fe7-4e3d-ae84-98c86663e270",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "arxqq",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscapeTexture": {
+                                            "type": "texture",
+                                            "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "3f67ji",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscape": false,
+                                        "tint": "#FFFFFF"
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 100,
+                                                    "height": 100,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "name": "txt",
+                                "type": "text",
+                                "id": "f206ad09-e26a-453c-a4ec-f7aeb0f636a4",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "txt",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "text": {
+                                        "type": "text",
+                                        "fontFamily": "b9ff7b26-6e6c-45df-b32c-1f33aa83912b",
+                                        "resolution": 3,
+                                        "text": "L",
+                                        "align": "center",
+                                        "fontSize": 60,
+                                        "fill": [
+                                            "#000000"
+                                        ],
+                                        "lineHeight": 0,
+                                        "leading": 0,
+                                        "letterSpacing": 0,
+                                        "padding": 0,
+                                        "strokeColor": "#000000",
+                                        "strokeThickness": 2,
+                                        "shadow": {
+                                            "enabled": false,
+                                            "alpha": 1,
+                                            "color": "#000000",
+                                            "blur": 0,
+                                            "angle": 0,
+                                            "distance": 5
+                                        },
+                                        "wordWrap": false,
+                                        "wordWrapWidth": 100,
+                                        "breakWords": true,
+                                        "autofit": false,
+                                        "autofitMultiline": false,
+                                        "autofitMaxFontSize": 60,
+                                        "autofitWidthRatio": 80,
+                                        "autofitHeightRatio": 80
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 80,
+                                                    "height": 80,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": -3,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            }
+                        ],
+                        "open": false
+                    },
+                    {
+                        "name": "block",
+                        "type": "container",
+                        "id": "18b30126-a637-4dcd-9bd4-2e8b5154b43a",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "block",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 529.9999999999998,
+                                    "y": 50,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1,
+                                    "linked": true
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit",
+                                "dynamicResize": false,
+                                "dynamicResizeName": "",
+                                "enableMarketRedirection": false
+                            },
+                            "container": {
+                                "type": "container",
+                                "debug": true,
+                                "width": 100,
+                                "height": 100,
+                                "landscape": false,
+                                "landscapeWidth": 100,
+                                "landscapeHeight": 100
+                            },
+                            "scripts": {
+                                "type": "scripts",
+                                "scripts": {
+                                    "bf0e1f19-6bff-4eb6-b873-4d387d0f6901": {
+                                        "id": "bf0e1f19-6bff-4eb6-b873-4d387d0f6901",
+                                        "name": "editorEventBtn.js",
+                                        "variables": {
+                                            "eventName": {
+                                                "type": "String",
+                                                "name": "eventName",
+                                                "value": "specialPick",
+                                                "order": 1
+                                            },
+                                            "eventType": {
+                                                "type": "String",
+                                                "name": "eventType",
+                                                "value": "block",
+                                                "order": 2
+                                            }
+                                        },
+                                        "order": 1
+                                    }
+                                }
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "bg",
+                                "type": "sprite",
+                                "id": "91968054-f4f3-47ea-8308-60a4d66c9144",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "bg",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": false
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false
+                                    },
+                                    "sprite": {
+                                        "type": "sprite",
+                                        "texture": {
+                                            "type": "texture",
+                                            "path": "d61b632c-6fe7-4e3d-ae84-98c86663e270",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "arxqq",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscapeTexture": {
+                                            "type": "texture",
+                                            "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "3f67ji",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscape": false,
+                                        "tint": "#FFFFFF"
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 100,
+                                                    "height": 100,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "name": "blockImage",
+                                "type": "sprite",
+                                "id": "e286233b-2633-4102-b482-adb3ba10f52f",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "blockImage",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1,
+                                            "linked": true
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0.5,
+                                            "y": 0.5,
+                                            "linked": false
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit",
+                                        "dynamicResize": false,
+                                        "dynamicResizeName": "",
+                                        "enableMarketRedirection": false,
+                                        "layer": "",
+                                        "dynamicOffset": false,
+                                        "dynamicOffsetName": ""
+                                    },
+                                    "sprite": {
+                                        "type": "sprite",
+                                        "texture": {
+                                            "type": "texture",
+                                            "path": "313af11d-967a-4677-98da-8abe7d47d370",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "smndt",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscapeTexture": {
+                                            "type": "texture",
+                                            "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                            "uploadId": "",
+                                            "stuffs": null,
+                                            "stuffsDataId": "2xxi2",
+                                            "localPath": "assets/2d/white.png"
+                                        },
+                                        "landscape": false,
+                                        "tint": "#FFFFFF",
+                                        "resizeOnTextureUpdate": true
+                                    },
+                                    "responsive2D": {
+                                        "type": "responsive2D",
+                                        "resizes": {
+                                            "da950b43-7c6e-49b0-bb5c-7729e4e060b5": {
+                                                "isActive": true,
+                                                "selected": "portrait",
+                                                "portrait": {
+                                                    "width": 80,
+                                                    "height": 80,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "landscape": {
+                                                    "enabled": false,
+                                                    "width": 50,
+                                                    "height": 50,
+                                                    "fitType": "min",
+                                                    "origin": "center",
+                                                    "referenceBottom": "",
+                                                    "referenceTop": "",
+                                                    "referenceLeft": "",
+                                                    "referenceRight": "",
+                                                    "verticalSpace": 0,
+                                                    "horizontalSpace": 0,
+                                                    "verticalSpaceUnit": "%",
+                                                    "horizontalSpaceUnit": "%"
+                                                },
+                                                "settings": {
+                                                    "enablePosition": true,
+                                                    "enableScale": true
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "children": []
+                            }
+                        ],
+                        "open": false
+                    }
+                ],
+                "open": false
+            },
+            {
+                "name": "Dino",
+                "type": "container",
+                "id": "e807ecb4-9850-4d46-99a5-17ccc4a0d224",
+                "components": {
+                    "node2D": {
+                        "type": "node2D",
+                        "label": "Dino",
+                        "visible": true,
+                        "alpha": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "linked": false
+                        },
+                        "angle": 0,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "linked": false
+                        },
+                        "skew": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "zIndex": 0,
+                        "mask": "",
+                        "invertAlpha": false,
+                        "eventMode": "passive",
+                        "optionalLoad": false,
+                        "optionalLoadID": "",
+                        "blendMode": "inherit",
+                        "dynamicResize": false,
+                        "dynamicResizeName": "",
+                        "enableMarketRedirection": false
+                    },
+                    "container": {
+                        "type": "container",
+                        "debug": true,
+                        "width": 100,
+                        "height": 100,
+                        "landscape": false,
+                        "landscapeWidth": 100,
+                        "landscapeHeight": 100
+                    },
+                    "responsive2D": {
+                        "type": "responsive2D",
+                        "resizes": {
+                            "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                "isActive": true,
+                                "selected": "portrait",
+                                "portrait": {
+                                    "width": 30,
+                                    "height": 30,
+                                    "fitType": "min",
+                                    "origin": "bottom",
+                                    "referenceBottom": "",
+                                    "referenceTop": "",
+                                    "referenceLeft": "",
+                                    "referenceRight": "",
+                                    "verticalSpace": -13,
+                                    "horizontalSpace": 0,
+                                    "verticalSpaceUnit": "%",
+                                    "horizontalSpaceUnit": "%"
+                                },
+                                "landscape": {
+                                    "enabled": false,
+                                    "width": 50,
+                                    "height": 50,
+                                    "fitType": "min",
+                                    "origin": "center",
+                                    "referenceBottom": "",
+                                    "referenceTop": "",
+                                    "referenceLeft": "",
+                                    "referenceRight": "",
+                                    "verticalSpace": 0,
+                                    "horizontalSpace": 0,
+                                    "verticalSpaceUnit": "%",
+                                    "horizontalSpaceUnit": "%"
+                                },
+                                "settings": {
+                                    "enablePosition": true,
+                                    "enableScale": true
+                                }
+                            }
+                        }
+                    },
+                    "scripts": {
+                        "type": "scripts",
+                        "scripts": {
+                            "bf0e1f19-6bff-4eb6-b873-4d387d0f6901": {
+                                "id": "bf0e1f19-6bff-4eb6-b873-4d387d0f6901",
+                                "name": "editorEventBtn.js",
+                                "variables": {
+                                    "eventName": {
+                                        "type": "String",
+                                        "name": "eventName",
+                                        "value": "resetBoard",
+                                        "order": 1
+                                    },
+                                    "eventType": {
+                                        "type": "String",
+                                        "name": "eventType",
+                                        "value": null,
+                                        "order": 2
+                                    }
+                                },
+                                "order": 1
+                            }
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "name": "New Sprite",
+                        "type": "sprite",
+                        "id": "d0bbef37-357a-4e58-b615-b6ba405ca7af",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "New Sprite",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1,
+                                    "linked": false
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5,
+                                    "linked": false
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "linked": false
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit",
+                                "dynamicResize": false,
+                                "dynamicResizeName": "",
+                                "enableMarketRedirection": false
+                            },
+                            "sprite": {
+                                "type": "sprite",
+                                "texture": {
+                                    "type": "texture",
+                                    "path": "2264e9aa-5d40-4add-8da3-b33f7bd0664e",
+                                    "uploadId": "",
+                                    "stuffs": null,
+                                    "stuffsDataId": "arxqq",
+                                    "localPath": "assets/2d/white.png"
+                                },
+                                "landscapeTexture": {
+                                    "type": "texture",
+                                    "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                    "uploadId": "",
+                                    "stuffs": null,
+                                    "stuffsDataId": "3f67ji",
+                                    "localPath": "assets/2d/white.png"
+                                },
+                                "landscape": false,
+                                "tint": "#FFFFFF"
+                            },
+                            "responsive2D": {
+                                "type": "responsive2D",
+                                "resizes": {
+                                    "689d7315-0ddf-4987-bb2c-390e6a43f497": {
+                                        "isActive": true,
+                                        "selected": "portrait",
+                                        "portrait": {
+                                            "width": 100,
+                                            "height": 100,
+                                            "fitType": "min",
+                                            "origin": "center",
+                                            "referenceBottom": "",
+                                            "referenceTop": "",
+                                            "referenceLeft": "",
+                                            "referenceRight": "",
+                                            "verticalSpace": 0,
+                                            "horizontalSpace": 0,
+                                            "verticalSpaceUnit": "%",
+                                            "horizontalSpaceUnit": "%"
+                                        },
+                                        "landscape": {
+                                            "enabled": false,
+                                            "width": 50,
+                                            "height": 50,
+                                            "fitType": "min",
+                                            "origin": "center",
+                                            "referenceBottom": "",
+                                            "referenceTop": "",
+                                            "referenceLeft": "",
+                                            "referenceRight": "",
+                                            "verticalSpace": 0,
+                                            "horizontalSpace": 0,
+                                            "verticalSpaceUnit": "%",
+                                            "horizontalSpaceUnit": "%"
+                                        },
+                                        "settings": {
+                                            "enablePosition": true,
+                                            "enableScale": true
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "children": []
+                    }
+                ],
+                "open": false
+            }
+        ],
+        "type": "root",
+        "components": {}
+    },
+    "settings": {
+        "type": "scene",
+        "enablePhysics2D": false,
+        "physicsWorld2D": "",
+        "optionalLoad": false,
+        "optionalLoadID": ""
+    }
+}

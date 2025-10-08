@@ -1,0 +1,18 @@
+{
+    "id": "e2543b70-1c84-4400-83c2-07c7db11f9cc",
+    "name": "door_R_orange.png",
+    "originalFilePath": "assets/2d/export_vol_0/Map/doors/door_R_orange.png",
+    "type": "image",
+    "size": 3774,
+    "path": "assets/2d/export_vol_0/Map/doors/door_R_orange.png",
+    "lastModified": "2024-11-08T12:56:06.579Z",
+    "isNew": false,
+    "exportCodeName": "door_R_orange",
+    "exportCode3DName": "door_R_orange",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 112,
+    "height": 66,
+    "__hidden": true
+}

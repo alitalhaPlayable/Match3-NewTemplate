@@ -1,0 +1,15 @@
+{
+    "id": "e3fb6b65-2a7a-484f-9ace-ec57c3583099",
+    "name": "lightballyellow.png",
+    "originalFilePath": "assets/2d/Temp/atlas/lightballyellow.png",
+    "type": "image",
+    "size": 34083,
+    "path": "assets/2d/Temp/atlas/lightballyellow.png.meta",
+    "lastModified": "2024-07-03T10:51:40.341Z",
+    "isNew": false,
+    "exportCodeName": "lightballyellow",
+    "exportCode3DName": "lightballyellow",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

@@ -1,0 +1,15 @@
+{
+    "id": "de476ad6-7e15-4eef-8d8a-1612bd842d2d",
+    "name": "lightballred.png",
+    "originalFilePath": "assets/2d/Temp/atlas/lightballred.png",
+    "type": "image",
+    "size": 30139,
+    "path": "assets/2d/Temp/atlas/lightballred.png.meta",
+    "lastModified": "2024-07-03T10:51:40.495Z",
+    "isNew": false,
+    "exportCodeName": "lightballred",
+    "exportCode3DName": "lightballred",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

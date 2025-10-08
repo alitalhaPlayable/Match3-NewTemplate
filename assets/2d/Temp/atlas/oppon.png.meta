@@ -1,0 +1,15 @@
+{
+    "id": "93a6ed86-dce1-467c-ac34-d23512d76cf4",
+    "name": "oppon.png",
+    "originalFilePath": "assets/2d/Temp/atlas/oppon.png",
+    "type": "image",
+    "size": 36497,
+    "path": "assets/2d/Temp/atlas/oppon.png.meta",
+    "lastModified": "2024-07-03T10:51:40.161Z",
+    "isNew": false,
+    "exportCodeName": "oppon",
+    "exportCode3DName": "oppon",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

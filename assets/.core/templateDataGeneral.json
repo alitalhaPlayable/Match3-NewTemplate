@@ -1,6 +1,8 @@
 {
     "assets": {
-        "font": {}
+        "font": {
+            "b9ff7b26-6e6c-45df-b32c-1f33aa83912b": "assets/fonts/font.ttf"
+        }
     },
     "objectMap": {
         "font": {}

@@ -1,0 +1,12 @@
+{
+    "id": "6c023192-91e3-466a-bfa0-a02bf6b55214",
+    "name": "bomb_effect.animation",
+    "originalFilePath": "assets/2d/effects/bomb_effect.animation",
+    "type": "animation",
+    "size": 7535,
+    "path": "assets/2d/effects/bomb_effect.animation",
+    "lastModified": "2024-11-08T08:50:00.000Z",
+    "isNew": true,
+    "exportCodeName": "bomb_effect",
+    "enableTiny": true
+}

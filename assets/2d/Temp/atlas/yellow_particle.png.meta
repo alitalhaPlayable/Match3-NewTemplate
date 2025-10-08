@@ -1,0 +1,15 @@
+{
+    "id": "fd73ca6a-a5b0-4a22-9dd3-6c4d75ef0f1f",
+    "name": "yellow_particle.png",
+    "originalFilePath": "assets/2d/Temp/atlas/yellow_particle.png",
+    "type": "image",
+    "size": 269,
+    "path": "assets/2d/Temp/atlas/yellow_particle.png.meta",
+    "lastModified": "2024-07-03T10:51:39.497Z",
+    "isNew": false,
+    "exportCodeName": "yellow_particle",
+    "exportCode3DName": "yellow_particle",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

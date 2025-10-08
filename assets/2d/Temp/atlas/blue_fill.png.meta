@@ -1,0 +1,15 @@
+{
+    "id": "06576e3a-9b40-47a3-b19f-56fc241c7f19",
+    "name": "blue_fill.png",
+    "originalFilePath": "assets/2d/Temp/atlas/blue_fill.png",
+    "type": "image",
+    "size": 4529,
+    "path": "assets/2d/Temp/atlas/blue_fill.png.meta",
+    "lastModified": "2024-07-03T10:51:39.858Z",
+    "isNew": false,
+    "exportCodeName": "blue_fill",
+    "exportCode3DName": "blue_fill",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

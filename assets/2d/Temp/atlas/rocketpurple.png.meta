@@ -1,0 +1,15 @@
+{
+    "id": "c4b35614-b9c9-42fa-8e93-3dbb6305189b",
+    "name": "rocketpurple.png",
+    "originalFilePath": "assets/2d/Temp/atlas/rocketpurple.png",
+    "type": "image",
+    "size": 31427,
+    "path": "assets/2d/Temp/atlas/rocketpurple.png.meta",
+    "lastModified": "2024-07-03T10:51:39.894Z",
+    "isNew": false,
+    "exportCodeName": "rocketpurple",
+    "exportCode3DName": "rocketpurple",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

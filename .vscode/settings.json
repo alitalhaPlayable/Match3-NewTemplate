@@ -1,10 +1,10 @@
 {
 	"files.exclude": {
 		"**/*.meta": true,
-		"**/.core/core/**": true
+		"**/.core/core/**": false
 	},
 	"search.exclude": {
-		"**/.core/core/**": true
+		"**/.core/core/**": false
 	},
 	"typescript.preferences.includePackageJsonAutoImports": "auto"
 }

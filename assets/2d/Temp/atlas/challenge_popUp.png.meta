@@ -1,0 +1,15 @@
+{
+    "id": "511bf2d9-c2af-487e-8448-40c34407d1c5",
+    "name": "challenge_popUp.png",
+    "originalFilePath": "assets/2d/Temp/atlas/challenge_popUp.png",
+    "type": "image",
+    "size": 7540,
+    "path": "assets/2d/Temp/atlas/challenge_popUp.png.meta",
+    "lastModified": "2024-07-03T10:51:39.570Z",
+    "isNew": false,
+    "exportCodeName": "challenge_popUp",
+    "exportCode3DName": "challenge_popUp",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

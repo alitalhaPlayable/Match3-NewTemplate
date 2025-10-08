@@ -1,0 +1,15 @@
+{
+    "id": "6c345974-07be-4177-8de8-3fa8392bb719",
+    "name": "white.png",
+    "originalFilePath": "assets/2d/Temp/atlas/white.png",
+    "type": "image",
+    "size": 464,
+    "path": "assets/2d/Temp/atlas/white.png.meta",
+    "lastModified": "2024-07-03T10:51:40.753Z",
+    "isNew": false,
+    "exportCodeName": "white",
+    "exportCode3DName": "white",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

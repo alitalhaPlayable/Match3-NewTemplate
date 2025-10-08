@@ -1,0 +1,109 @@
+{
+    "name": "lightballAnim",
+    "type": "2D",
+    "root": {
+        "id": "ROOT",
+        "name": "ROOT",
+        "components": {},
+        "type": "prefabRoot",
+        "children": [
+            {
+                "name": "lightballAnim",
+                "type": "container",
+                "id": "89ae2dec-225c-48ae-bdd6-4004e848a559",
+                "components": {
+                    "node2D": {
+                        "label": "lightballAnim",
+                        "visible": true,
+                        "alpha": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "linked": false
+                        },
+                        "angle": 0,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "linked": false
+                        },
+                        "skew": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "zIndex": 0,
+                        "mask": "",
+                        "invertAlpha": false,
+                        "type": "node2D"
+                    },
+                    "container": {
+                        "type": "container",
+                        "debug": true,
+                        "width": 210,
+                        "height": 28
+                    }
+                },
+                "children": [
+                    {
+                        "name": "lightBallEffect",
+                        "type": "animatedSprite",
+                        "id": "f7086d33-6d67-457c-80c7-1491934ca0af",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "lightBallEffect",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 200,
+                                    "y": 14,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 0.28,
+                                    "y": 0.28,
+                                    "linked": true
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5,
+                                    "linked": false
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "linked": false
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false
+                            },
+                            "animatedSprite": {
+                                "type": "animatedSprite",
+                                "animationSpeed": 0.6,
+                                "loop": false,
+                                "autoplay": false,
+                                "animationTexture": "37cc9000-6044-4789-bc23-2efd2e04cd45",
+                                "animation": "",
+                                "tint": "#FFFFFF",
+                                "controller": null
+                            }
+                        },
+                        "children": []
+                    }
+                ],
+                "hidden": false
+            }
+        ]
+    },
+    "id": "719f5761-5087-41b1-a0cd-3b61ad75c2b6",
+    "export": true,
+    "exportId": "lightballAnim"
+}

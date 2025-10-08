@@ -1,0 +1,106 @@
+{
+    "name": "bombAnimation",
+    "type": "2D",
+    "root": {
+        "id": "ROOT",
+        "name": "ROOT",
+        "components": {},
+        "type": "prefabRoot",
+        "children": [
+            {
+                "name": "bombAnimation",
+                "type": "container",
+                "id": "81cb531c-0c65-42c9-af91-b2234e93bc73",
+                "components": {
+                    "node2D": {
+                        "label": "bombAnimation",
+                        "visible": true,
+                        "alpha": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "linked": false
+                        },
+                        "angle": 0,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "linked": false
+                        },
+                        "skew": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "zIndex": 0,
+                        "mask": "",
+                        "invertAlpha": false,
+                        "type": "node2D"
+                    },
+                    "container": {
+                        "type": "container",
+                        "debug": true,
+                        "width": 180,
+                        "height": 180
+                    }
+                },
+                "children": [
+                    {
+                        "name": "bombEffect",
+                        "type": "animatedSprite",
+                        "id": "7aa84b03-0e17-4e32-9602-e82e1688b709",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "bombEffect",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 90,
+                                    "y": 90,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 0.5,
+                                    "y": 0.5,
+                                    "linked": true
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": null,
+                                "invertAlpha": false
+                            },
+                            "animatedSprite": {
+                                "type": "animatedSprite",
+                                "animationSpeed": 1,
+                                "loop": false,
+                                "autoplay": false,
+                                "animationTexture": "6c023192-91e3-466a-bfa0-a02bf6b55214",
+                                "animation": "",
+                                "tint": "#FFFFFF",
+                                "controller": null
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "id": "5d8f1abe-8bad-4650-8ca6-7acc28f1280d",
+    "export": true,
+    "exportId": "bombAnimation"
+}

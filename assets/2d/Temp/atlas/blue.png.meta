@@ -1,0 +1,15 @@
+{
+    "id": "093ac5c2-f2e0-4f9a-9f47-d7cefd5108d9",
+    "name": "blue.png",
+    "originalFilePath": "assets/2d/Temp/atlas/blue.png",
+    "type": "image",
+    "size": 48160,
+    "path": "assets/2d/Temp/atlas/blue.png.meta",
+    "lastModified": "2024-07-03T10:51:39.912Z",
+    "isNew": false,
+    "exportCodeName": "blue",
+    "exportCode3DName": "blue",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

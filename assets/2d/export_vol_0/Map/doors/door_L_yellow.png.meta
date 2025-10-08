@@ -1,0 +1,18 @@
+{
+    "id": "0e22c15f-669a-4282-ae27-44d5202f1316",
+    "name": "door_L_yellow.png",
+    "originalFilePath": "assets/2d/export_vol_0/Map/doors/door_L_yellow.png",
+    "type": "image",
+    "size": 4037,
+    "path": "assets/2d/export_vol_0/Map/doors/door_L_yellow.png",
+    "lastModified": "2024-11-08T12:56:06.521Z",
+    "isNew": false,
+    "exportCodeName": "door_L_yellow",
+    "exportCode3DName": "door_L_yellow",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 112,
+    "height": 66,
+    "__hidden": true
+}

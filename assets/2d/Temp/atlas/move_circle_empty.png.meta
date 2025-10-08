@@ -1,0 +1,15 @@
+{
+    "id": "a434c89b-b816-468e-9c3a-cfaa00c4f268",
+    "name": "move_circle_empty.png",
+    "originalFilePath": "assets/2d/Temp/atlas/move_circle_empty.png",
+    "type": "image",
+    "size": 6869,
+    "path": "assets/2d/Temp/atlas/move_circle_empty.png.meta",
+    "lastModified": "2024-07-03T10:51:40.679Z",
+    "isNew": false,
+    "exportCodeName": "move_circle_empty",
+    "exportCode3DName": "move_circle_empty",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

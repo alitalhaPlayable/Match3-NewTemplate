@@ -1,0 +1,15 @@
+{
+    "id": "a6265bf8-c32c-4277-b461-6def4eb7bc44",
+    "name": "green_particle.png",
+    "originalFilePath": "assets/2d/Temp/atlas/green_particle.png",
+    "type": "image",
+    "size": 265,
+    "path": "assets/2d/Temp/atlas/green_particle.png.meta",
+    "lastModified": "2024-07-03T10:51:40.736Z",
+    "isNew": false,
+    "exportCodeName": "green_particle",
+    "exportCode3DName": "green_particle",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

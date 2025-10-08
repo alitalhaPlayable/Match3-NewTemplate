@@ -1,0 +1,15 @@
+{
+    "id": "57c2ffbc-640d-4127-a37c-e428b3ff4847",
+    "name": "bombblue.png",
+    "originalFilePath": "assets/2d/Temp/atlas/bombblue.png",
+    "type": "image",
+    "size": 42014,
+    "path": "assets/2d/Temp/atlas/bombblue.png.meta",
+    "lastModified": "2024-07-03T10:51:40.438Z",
+    "isNew": false,
+    "exportCodeName": "bombblue",
+    "exportCode3DName": "bombblue",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

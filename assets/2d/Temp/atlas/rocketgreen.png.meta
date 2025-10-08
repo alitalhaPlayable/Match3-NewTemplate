@@ -1,0 +1,15 @@
+{
+    "id": "42580e34-18e0-4c2e-ac32-9ebd90be7a11",
+    "name": "rocketgreen.png",
+    "originalFilePath": "assets/2d/Temp/atlas/rocketgreen.png",
+    "type": "image",
+    "size": 32491,
+    "path": "assets/2d/Temp/atlas/rocketgreen.png.meta",
+    "lastModified": "2024-07-03T10:51:39.425Z",
+    "isNew": false,
+    "exportCodeName": "rocketgreen",
+    "exportCode3DName": "rocketgreen",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

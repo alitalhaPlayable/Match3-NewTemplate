@@ -1,0 +1,18 @@
+{
+    "id": "85a60e5e-a9ad-4066-96bf-5037ef9200b8",
+    "name": "board_w.png",
+    "originalFilePath": "assets/2d/export_vol_0/Board/board_w.png",
+    "type": "image",
+    "size": 2647,
+    "path": "assets/2d/export_vol_0/Board/board_w.png",
+    "lastModified": "2024-11-08T12:55:47.585Z",
+    "isNew": false,
+    "exportCodeName": "board_w",
+    "exportCode3DName": "board_w",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 460,
+    "height": 460,
+    "__hidden": true
+}

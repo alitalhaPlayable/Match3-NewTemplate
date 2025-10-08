@@ -1,0 +1,19 @@
+{
+    "id": "2264e9aa-5d40-4add-8da3-b33f7bd0664e",
+    "name": "dinno.jpg",
+    "originalFilePath": "assets/2d/LevelEditor/dinno.jpg",
+    "type": "image",
+    "size": 27058,
+    "path": "assets/2d/LevelEditor/dinno.jpg",
+    "lastModified": "2025-01-22T07:30:32.382Z",
+    "exportCodeName": "dinno",
+    "exportCode3DName": "dinno",
+    "enableAtlas": false,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 736,
+    "height": 684,
+    "__hidden": true,
+    "fileHash": "84baa78b73184f91375b03ae32f3120f4cd0429f4b5f1aeb8d81178324a16a74",
+    "fileMtime": 1759895410000
+}

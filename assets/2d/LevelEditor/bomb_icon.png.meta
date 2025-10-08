@@ -1,0 +1,17 @@
+{
+    "id": "22cd70be-8c57-4fa4-94ed-59336238908c",
+    "name": "bomb_icon.png",
+    "originalFilePath": "assets/2d/LevelEditor/bomb_icon.png",
+    "type": "image",
+    "size": 76390,
+    "path": "assets/2d/LevelEditor/bomb_icon.png",
+    "lastModified": "2025-01-24T05:23:44.934Z",
+    "exportCodeName": "bomb_spine",
+    "exportCode3DName": "bomb_icon",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true,
+    "width": 260,
+    "height": 292,
+    "__hidden": true
+}

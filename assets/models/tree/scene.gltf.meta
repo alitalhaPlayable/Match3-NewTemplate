@@ -1,0 +1,12 @@
+{
+  "id": "c19f4c52-033f-45f9-acdf-7ccdc029c36a",
+  "name": "scene.gltf",
+  "originalFilePath": "assets/models/tree/scene.gltf",
+  "type": "gltf",
+  "size": 5889,
+  "path": "assets/models/tree/scene.gltf",
+  "lastModified": "2024-05-10T19:03:11.556Z",
+  "textures": [],
+  "bin": "scene.bin",
+  "exportCode3DName": "scene.gltf"
+}

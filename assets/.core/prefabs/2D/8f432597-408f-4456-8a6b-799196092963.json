@@ -1,0 +1,59 @@
+{
+    "name": "destroyParticle",
+    "type": "2D",
+    "root": {
+        "id": "ROOT",
+        "name": "ROOT",
+        "components": {},
+        "type": "prefabRoot",
+        "children": [
+            {
+                "name": "destroyParticle",
+                "type": "container",
+                "id": "310e2665-3b2b-481e-8490-e83643b53b02",
+                "components": {
+                    "node2D": {
+                        "label": "destroyParticle",
+                        "visible": true,
+                        "alpha": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "linked": false
+                        },
+                        "angle": 0,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "linked": false
+                        },
+                        "skew": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "zIndex": 0,
+                        "mask": "",
+                        "invertAlpha": false,
+                        "type": "node2D"
+                    },
+                    "container": {
+                        "type": "container",
+                        "debug": true,
+                        "width": 15,
+                        "height": 15
+                    }
+                },
+                "children": []
+            }
+        ]
+    },
+    "id": "8f432597-408f-4456-8a6b-799196092963",
+    "export": true,
+    "exportId": "destroyParticle"
+}

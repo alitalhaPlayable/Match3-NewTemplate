@@ -1,0 +1,20 @@
+{
+    "id": "d7143db3-92db-48c8-b2b4-db42cd91306f",
+    "name": "black_piece_bg.jpg",
+    "originalFilePath": "assets/2d/Temp/atlas/black_piece_bg.jpg",
+    "type": "image",
+    "size": 4193,
+    "path": "assets/2d/Temp/atlas/black_piece_bg.jpg.meta",
+    "lastModified": "2024-07-03T10:51:40.532Z",
+    "isNew": false,
+    "exportCodeName": "black_piece_bg",
+    "exportCode3DName": "black_piece_bg",
+    "enableAtlas": false,
+    "enableTiny": true,
+    "exportForCode": true,
+    "__hidden": true,
+    "width": 140,
+    "height": 140,
+    "fileHash": "60ddc923ec882de56583adf32606d960ac63749d08170eb3ee52920024b665ff",
+    "fileMtime": 1759903581268
+}

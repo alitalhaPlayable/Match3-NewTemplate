@@ -1,0 +1,17 @@
+{
+    "id": "d140a58b-11d4-4c34-b7af-6841830105e1",
+    "name": "block_00.png",
+    "originalFilePath": "assets/2d/export_vol_0/Blocks/block_00.png",
+    "type": "image",
+    "size": 11783,
+    "path": "assets/2d/export_vol_0/Blocks/block_00.png",
+    "lastModified": "2025-04-09T06:01:28.729Z",
+    "exportCodeName": "block_00",
+    "exportCode3DName": "block_00",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true,
+    "width": 79,
+    "height": 93,
+    "__hidden": true
+}

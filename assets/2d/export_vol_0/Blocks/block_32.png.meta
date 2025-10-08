@@ -1,0 +1,17 @@
+{
+    "id": "4e143cc1-2c92-4065-98a0-6c53cd3389ac",
+    "name": "block_32.png",
+    "originalFilePath": "assets/2d/export_vol_0/Blocks/block_32.png",
+    "type": "image",
+    "size": 15395,
+    "path": "assets/2d/export_vol_0/Blocks/block_32.png",
+    "lastModified": "2025-04-09T06:01:44.370Z",
+    "exportCodeName": "block_32",
+    "exportCode3DName": "block_32",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true,
+    "width": 80,
+    "height": 96,
+    "__hidden": true
+}

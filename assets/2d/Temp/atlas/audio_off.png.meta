@@ -1,0 +1,15 @@
+{
+    "id": "bb539b6c-10f7-45ad-8843-97da6d868548",
+    "name": "audio_off.png",
+    "originalFilePath": "assets/2d/Temp/atlas/audio_off.png",
+    "type": "image",
+    "size": 2450,
+    "path": "assets/2d/Temp/atlas/audio_off.png.meta",
+    "lastModified": "2024-07-03T10:51:40.457Z",
+    "isNew": false,
+    "exportCodeName": "audio_off",
+    "exportCode3DName": "audio_off",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

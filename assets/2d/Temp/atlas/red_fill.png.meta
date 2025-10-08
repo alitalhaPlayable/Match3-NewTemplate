@@ -1,0 +1,15 @@
+{
+    "id": "3d593d4b-799e-4c51-96dc-69a95c9b7fde",
+    "name": "red_fill.png",
+    "originalFilePath": "assets/2d/Temp/atlas/red_fill.png",
+    "type": "image",
+    "size": 4916,
+    "path": "assets/2d/Temp/atlas/red_fill.png.meta",
+    "lastModified": "2024-07-03T10:51:40.287Z",
+    "isNew": false,
+    "exportCodeName": "red_fill",
+    "exportCode3DName": "red_fill",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

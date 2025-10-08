@@ -1,0 +1,15 @@
+{
+    "id": "60fcff33-fb55-45df-8c7a-0b51513f82af",
+    "name": "orange_particle.png",
+    "originalFilePath": "assets/2d/Temp/atlas/orange_particle.png",
+    "type": "image",
+    "size": 282,
+    "path": "assets/2d/Temp/atlas/orange_particle.png.meta",
+    "lastModified": "2024-07-03T10:51:40.054Z",
+    "isNew": false,
+    "exportCodeName": "orange_particle",
+    "exportCode3DName": "orange_particle",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

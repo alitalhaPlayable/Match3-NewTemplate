@@ -1,0 +1,15 @@
+{
+    "id": "ce2c804d-e486-45fd-9443-c4c281735770",
+    "name": "bombpurple.png",
+    "originalFilePath": "assets/2d/Temp/atlas/bombpurple.png",
+    "type": "image",
+    "size": 41050,
+    "path": "assets/2d/Temp/atlas/bombpurple.png.meta",
+    "lastModified": "2024-07-03T10:51:40.179Z",
+    "isNew": false,
+    "exportCodeName": "bombpurple",
+    "exportCode3DName": "bombpurple",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

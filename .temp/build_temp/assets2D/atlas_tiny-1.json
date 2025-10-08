@@ -1,0 +1,135 @@
+{
+  "frames": {
+    "fb032876-d79d-4f18-a530-8bcbb0c72a6c": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 345,
+        "h": 379
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 345,
+        "h": 379
+      },
+      "sourceSize": {
+        "w": 345,
+        "h": 379
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "04b911db-4d3d-49fe-803e-78dfa6692092": {
+      "frame": {
+        "x": 2,
+        "y": 385,
+        "w": 341,
+        "h": 354
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27,
+        "y": 31,
+        "w": 341,
+        "h": 354
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "a206c9e2-6112-460a-a600-8fd7cc9c0f28": {
+      "frame": {
+        "x": 2,
+        "y": 743,
+        "w": 349,
+        "h": 330
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27,
+        "y": 36,
+        "w": 349,
+        "h": 330
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "49c0da46-9fe2-4087-b847-8463b0dc23ca": {
+      "frame": {
+        "x": 347,
+        "y": 385,
+        "w": 342,
+        "h": 317
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 53,
+        "w": 342,
+        "h": 317
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "22cd70be-8c57-4fa4-94ed-59336238908c": {
+      "frame": {
+        "x": 351,
+        "y": 2,
+        "w": 260,
+        "h": 292
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 292
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 292
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://github.com/odrick/free-tex-packer-core",
+    "version": "0.3.4",
+    "image": "atlas_tiny-1.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 691,
+      "h": 1075
+    },
+    "scale": 1
+  }
+}

@@ -1,0 +1,106 @@
+{
+    "name": "destroyAnim",
+    "type": "2D",
+    "root": {
+        "id": "ROOT",
+        "name": "ROOT",
+        "components": {},
+        "type": "prefabRoot",
+        "children": [
+            {
+                "name": "destroyAnim",
+                "type": "container",
+                "id": "b0577f90-1daf-4223-8cb7-1a3bdfdb4b58",
+                "components": {
+                    "node2D": {
+                        "label": "destroyAnim",
+                        "visible": true,
+                        "alpha": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "linked": false
+                        },
+                        "angle": 0,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "linked": false
+                        },
+                        "skew": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "zIndex": 0,
+                        "mask": "",
+                        "invertAlpha": false,
+                        "type": "node2D"
+                    },
+                    "container": {
+                        "type": "container",
+                        "debug": true,
+                        "width": 42,
+                        "height": 42
+                    }
+                },
+                "children": [
+                    {
+                        "name": "destroyAnim",
+                        "type": "animatedSprite",
+                        "id": "f41d8858-50e8-4226-a44e-58cdf74fba78",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "destroyAnim",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 21,
+                                    "y": 21,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 0.2,
+                                    "y": 0.2,
+                                    "linked": true
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": null,
+                                "invertAlpha": false
+                            },
+                            "animatedSprite": {
+                                "type": "animatedSprite",
+                                "animationSpeed": 1,
+                                "loop": false,
+                                "autoplay": false,
+                                "animationTexture": "ea48f793-47c2-4472-a0e3-127484e547f2",
+                                "animation": "normal",
+                                "tint": "#FFFFFF",
+                                "controller": null
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "id": "da9693fd-019c-4bcd-9f05-472e10bf6f81",
+    "export": true,
+    "exportId": "destroyAnim"
+}

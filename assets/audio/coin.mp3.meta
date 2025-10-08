@@ -1,0 +1,13 @@
+{
+    "id": "ab54ceaa-d80c-408b-b53a-3e112ef44eb5",
+    "name": "coin.mp3",
+    "originalFilePath": "assets/audio/coin.mp3",
+    "type": "audio",
+    "size": 6907,
+    "path": "assets/audio/coin.mp3",
+    "lastModified": "2022-08-12T07:07:27.560Z",
+    "isNew": false,
+    "isAudioSprite": true,
+    "loop": false,
+    "__hidden": true
+}

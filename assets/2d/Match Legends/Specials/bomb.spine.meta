@@ -1,0 +1,13 @@
+{
+    "id": "cf628b58-44e2-46be-918c-aa6453dd33f7",
+    "name": "bomb.spine",
+    "originalFilePath": "assets/2d/Match Legends/Specials/bomb.spine",
+    "type": "spine",
+    "size": 346569,
+    "path": "assets/2d/Match Legends/Specials/bomb.spine",
+    "lastModified": "2025-01-09T14:48:33.400Z",
+    "exportCodeName": "Bomb",
+    "enableTiny": true,
+    "__hidden": true,
+    "exportForCode": true
+}

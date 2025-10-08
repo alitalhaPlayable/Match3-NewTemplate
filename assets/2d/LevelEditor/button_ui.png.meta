@@ -1,0 +1,16 @@
+{
+    "id": "d61b632c-6fe7-4e3d-ae84-98c86663e270",
+    "name": "button_ui.png",
+    "originalFilePath": "assets/2d/LevelEditor/button_ui.png",
+    "type": "image",
+    "size": 1500,
+    "path": "assets/2d/LevelEditor/button_ui.png",
+    "lastModified": "2024-12-23T11:26:38.525Z",
+    "exportCodeName": "button_ui",
+    "exportCode3DName": "button_ui",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 128,
+    "height": 128
+}

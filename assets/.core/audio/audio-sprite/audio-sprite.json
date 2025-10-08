@@ -1,6 +1,6 @@
 {
     "resources": [
-        "C:\\Users\\playable\\gearbox\\studio-template\\assets\\.core\\audio\\audio-sprite\\audio-sprite.m4a"
+        "C:\\Users\\denizk\\Desktop\\Projects\\Match3-NewTemplate\\assets\\.core\\audio\\audio-sprite\\audio-sprite.m4a"
     ],
     "spritemap": {
         "bounce": {
@@ -8,19 +8,49 @@
             "end": 0.11687074829931973,
             "loop": false
         },
-        "collect": {
+        "bullet_pile0": {
             "start": 1.9999999999999998,
-            "end": 2.368208616780045,
+            "end": 3.9606349206349205,
+            "loop": false
+        },
+        "bullet_pile1": {
+            "start": 5,
+            "end": 6.593469387755102,
+            "loop": false
+        },
+        "cash": {
+            "start": 8,
+            "end": 9.091337868480725,
+            "loop": false
+        },
+        "click": {
+            "start": 11,
+            "end": 11.09142857142857,
+            "loop": false
+        },
+        "coin": {
+            "start": 13,
+            "end": 14.207437641723356,
+            "loop": false
+        },
+        "collect": {
+            "start": 16,
+            "end": 16.368208616780045,
+            "loop": false
+        },
+        "crash": {
+            "start": 18,
+            "end": 19.323537414965987,
             "loop": false
         },
         "hit": {
-            "start": 3.9999999999999996,
-            "end": 4.274467120181406,
+            "start": 21,
+            "end": 21.274467120181406,
             "loop": false
         },
         "jump": {
-            "start": 6,
-            "end": 6.250294784580499,
+            "start": 23,
+            "end": 23.2502947845805,
             "loop": false
         }
     }

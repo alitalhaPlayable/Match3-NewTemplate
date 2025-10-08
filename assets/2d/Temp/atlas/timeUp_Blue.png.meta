@@ -1,0 +1,15 @@
+{
+    "id": "960157b7-15a1-46b9-9e70-255f30186452",
+    "name": "timeUp_Blue.png",
+    "originalFilePath": "assets/2d/Temp/atlas/timeUp_Blue.png",
+    "type": "image",
+    "size": 10950,
+    "path": "assets/2d/Temp/atlas/timeUp_Blue.png.meta",
+    "lastModified": "2024-07-03T10:51:40.108Z",
+    "isNew": false,
+    "exportCodeName": "timeUp_Blue",
+    "exportCode3DName": "timeUp_Blue",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

@@ -1,0 +1,233 @@
+{
+    "name": "Item",
+    "type": "2D",
+    "root": {
+        "id": "ROOT",
+        "name": "ROOT",
+        "components": {},
+        "type": "prefabRoot",
+        "children": [
+            {
+                "name": "Item",
+                "type": "container",
+                "id": "f41a0e33-1076-458a-8791-e7bc93aae352",
+                "components": {
+                    "node2D": {
+                        "label": "Item",
+                        "visible": true,
+                        "alpha": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "linked": false
+                        },
+                        "angle": 0,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "linked": false
+                        },
+                        "skew": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "zIndex": 0,
+                        "mask": "",
+                        "invertAlpha": false,
+                        "eventMode": "passive",
+                        "optionalLoad": false,
+                        "optionalLoadID": "",
+                        "blendMode": "inherit",
+                        "type": "node2D"
+                    },
+                    "container": {
+                        "type": "container",
+                        "debug": true,
+                        "width": 100,
+                        "height": 100,
+                        "landscape": false,
+                        "landscapeWidth": 100,
+                        "landscapeHeight": 100
+                    }
+                },
+                "children": [
+                    {
+                        "name": "ItemSprite",
+                        "type": "sprite",
+                        "id": "618f1aca-2981-4cf7-bca5-a31e44d2011a",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "ItemSprite",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 50,
+                                    "y": 50,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit"
+                            },
+                            "sprite": {
+                                "type": "sprite",
+                                "texture": {
+                                    "type": "texture",
+                                    "path": "093ac5c2-f2e0-4f9a-9f47-d7cefd5108d9",
+                                    "uploadId": "",
+                                    "stuffs": null,
+                                    "stuffsDataId": "j96vt4",
+                                    "localPath": "assets/2d/white.png"
+                                },
+                                "landscapeTexture": {
+                                    "type": "texture",
+                                    "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                    "uploadId": "",
+                                    "stuffs": null,
+                                    "stuffsDataId": "k3xzms",
+                                    "localPath": "assets/2d/white.png"
+                                },
+                                "landscape": false,
+                                "tint": "#FFFFFF"
+                            },
+                            "responsive2D": {
+                                "type": "responsive2D",
+                                "resizes": {
+                                    "0761e5ba-33dd-452a-99c1-bdcec1535b1b": {
+                                        "isActive": true,
+                                        "selected": "portrait",
+                                        "portrait": {
+                                            "width": 100,
+                                            "height": 100,
+                                            "fitType": "min",
+                                            "origin": "center",
+                                            "referenceBottom": "",
+                                            "referenceTop": "",
+                                            "referenceLeft": "",
+                                            "referenceRight": "",
+                                            "verticalSpace": 0,
+                                            "horizontalSpace": 0,
+                                            "verticalSpaceUnit": "%",
+                                            "horizontalSpaceUnit": "%"
+                                        },
+                                        "landscape": {
+                                            "enabled": false,
+                                            "width": 50,
+                                            "height": 50,
+                                            "fitType": "min",
+                                            "origin": "center",
+                                            "referenceBottom": "",
+                                            "referenceTop": "",
+                                            "referenceLeft": "",
+                                            "referenceRight": "",
+                                            "verticalSpace": 0,
+                                            "horizontalSpace": 0,
+                                            "verticalSpaceUnit": "%",
+                                            "horizontalSpaceUnit": "%"
+                                        },
+                                        "settings": {
+                                            "enablePosition": true,
+                                            "enableScale": true
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "name": "New Sprite",
+                        "type": "sprite",
+                        "id": "6d521527-8703-478f-b015-223ab2d08494",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "New Sprite",
+                                "visible": true,
+                                "alpha": 0,
+                                "position": {
+                                    "x": 50,
+                                    "y": 50,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit",
+                                "dynamicResize": false,
+                                "dynamicResizeName": "",
+                                "enableMarketRedirection": false
+                            },
+                            "sprite": {
+                                "type": "sprite",
+                                "texture": {
+                                    "type": "texture",
+                                    "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                    "uploadId": "",
+                                    "stuffs": null,
+                                    "stuffsDataId": "7pct1",
+                                    "localPath": "assets/2d/white.png"
+                                },
+                                "landscapeTexture": {
+                                    "type": "texture",
+                                    "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                    "uploadId": "",
+                                    "stuffs": null,
+                                    "stuffsDataId": "of89s",
+                                    "localPath": "assets/2d/white.png"
+                                },
+                                "landscape": false,
+                                "tint": "#FFFFFF"
+                            }
+                        },
+                        "children": []
+                    }
+                ],
+                "open": true
+            }
+        ]
+    },
+    "id": "c354cf83-17e8-46c1-8c5f-b88cb8c3851f",
+    "export": true,
+    "exportId": "Item"
+}

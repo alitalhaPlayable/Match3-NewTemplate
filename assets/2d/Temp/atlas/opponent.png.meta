@@ -1,0 +1,15 @@
+{
+    "id": "20277b86-5598-4f3f-8c7f-113bc0556c75",
+    "name": "opponent.png",
+    "originalFilePath": "assets/2d/Temp/atlas/opponent.png",
+    "type": "image",
+    "size": 17159,
+    "path": "assets/2d/Temp/atlas/opponent.png.meta",
+    "lastModified": "2024-07-03T10:51:40.717Z",
+    "isNew": false,
+    "exportCodeName": "opponent",
+    "exportCode3DName": "opponent",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

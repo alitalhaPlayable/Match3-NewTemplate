@@ -1,0 +1,16 @@
+{
+    "id": "313af11d-967a-4677-98da-8abe7d47d370",
+    "name": "blockEditor.png",
+    "originalFilePath": "assets/2d/LevelEditor/blockEditor.png",
+    "type": "image",
+    "size": 36571,
+    "path": "assets/2d/LevelEditor/blockEditor.png",
+    "lastModified": "2025-04-09T06:42:08.784Z",
+    "exportCodeName": "blockEditor",
+    "exportCode3DName": "blockEditor",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 512,
+    "height": 512
+}

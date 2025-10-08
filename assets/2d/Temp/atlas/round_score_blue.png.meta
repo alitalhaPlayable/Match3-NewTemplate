@@ -1,0 +1,15 @@
+{
+    "id": "bafa029d-7b73-4e59-9d29-e5e408a7a4aa",
+    "name": "round_score_blue.png",
+    "originalFilePath": "assets/2d/Temp/atlas/round_score_blue.png",
+    "type": "image",
+    "size": 4303,
+    "path": "assets/2d/Temp/atlas/round_score_blue.png.meta",
+    "lastModified": "2024-07-03T10:51:39.479Z",
+    "isNew": false,
+    "exportCodeName": "round_score_blue",
+    "exportCode3DName": "round_score_blue",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

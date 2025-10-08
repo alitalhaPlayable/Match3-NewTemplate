@@ -1,0 +1,15 @@
+{
+    "id": "f7f425de-d4af-4d83-a210-877f4ebfad10",
+    "name": "singlePlayer_Bar.png",
+    "originalFilePath": "assets/2d/Temp/atlas/singlePlayer_Bar.png",
+    "type": "image",
+    "size": 8466,
+    "path": "assets/2d/Temp/atlas/singlePlayer_Bar.png.meta",
+    "lastModified": "2024-07-03T10:51:40.419Z",
+    "isNew": false,
+    "exportCodeName": "singlePlayer_Bar",
+    "exportCode3DName": "singlePlayer_Bar",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

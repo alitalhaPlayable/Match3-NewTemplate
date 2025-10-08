@@ -1,0 +1,15 @@
+{
+    "id": "747fb736-d64a-40ff-b459-4964649a9dca",
+    "name": "lightballpurple.png",
+    "originalFilePath": "assets/2d/Temp/atlas/lightballpurple.png",
+    "type": "image",
+    "size": 36003,
+    "path": "assets/2d/Temp/atlas/lightballpurple.png.meta",
+    "lastModified": "2024-07-03T10:51:39.642Z",
+    "isNew": false,
+    "exportCodeName": "lightballpurple",
+    "exportCode3DName": "lightballpurple",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

@@ -1,0 +1,17 @@
+{
+    "id": "a26b42d4-1978-406d-be81-df9e243f3eec",
+    "name": "R.png",
+    "originalFilePath": "assets/2d/LevelEditor/R.png",
+    "type": "image",
+    "size": 1468,
+    "path": "assets/2d/LevelEditor/R.png",
+    "lastModified": "2025-01-22T07:29:56.012Z",
+    "exportCodeName": "random",
+    "exportCode3DName": "R",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true,
+    "width": 100,
+    "height": 100,
+    "__hidden": true
+}

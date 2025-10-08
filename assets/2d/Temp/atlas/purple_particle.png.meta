@@ -1,0 +1,15 @@
+{
+    "id": "bb3d3473-5da8-4130-b1d2-ddbc5496999f",
+    "name": "purple_particle.png",
+    "originalFilePath": "assets/2d/Temp/atlas/purple_particle.png",
+    "type": "image",
+    "size": 279,
+    "path": "assets/2d/Temp/atlas/purple_particle.png.meta",
+    "lastModified": "2024-07-03T10:51:40.882Z",
+    "isNew": false,
+    "exportCodeName": "purple_particle",
+    "exportCode3DName": "purple_particle",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

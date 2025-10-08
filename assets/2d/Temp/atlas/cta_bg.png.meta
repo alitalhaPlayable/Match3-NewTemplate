@@ -1,0 +1,15 @@
+{
+    "id": "63115f66-fe41-482c-98bd-008c5bdc3235",
+    "name": "cta_bg.png",
+    "originalFilePath": "assets/2d/Temp/atlas/cta_bg.png",
+    "type": "image",
+    "size": 8963,
+    "path": "assets/2d/Temp/atlas/cta_bg.png.meta",
+    "lastModified": "2024-07-03T10:51:39.659Z",
+    "isNew": false,
+    "exportCodeName": "cta_bg",
+    "exportCode3DName": "cta_bg",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

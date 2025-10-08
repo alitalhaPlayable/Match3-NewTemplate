@@ -1,0 +1,15 @@
+{
+    "id": "6b3634df-a977-4a8b-a712-d13b3b7303cd",
+    "name": "lightballgreen.png",
+    "originalFilePath": "assets/2d/Temp/atlas/lightballgreen.png",
+    "type": "image",
+    "size": 40769,
+    "path": "assets/2d/Temp/atlas/lightballgreen.png.meta",
+    "lastModified": "2024-07-03T10:51:39.552Z",
+    "isNew": false,
+    "exportCodeName": "lightballgreen",
+    "exportCode3DName": "lightballgreen",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

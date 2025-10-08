@@ -1,0 +1,20 @@
+{
+    "id": "f7d5daac-193c-49b6-b39a-b51358ad572f",
+    "name": "host_text_bg.png",
+    "originalFilePath": "assets/2d/Temp/atlas/host_text_bg.png",
+    "type": "image",
+    "size": 7524,
+    "path": "assets/2d/Temp/atlas/host_text_bg.png.meta",
+    "lastModified": "2024-07-03T10:51:39.401Z",
+    "isNew": false,
+    "exportCodeName": "host_text_bg",
+    "exportCode3DName": "host_text_bg",
+    "enableAtlas": false,
+    "enableTiny": true,
+    "exportForCode": false,
+    "__hidden": true,
+    "width": 1086,
+    "height": 381,
+    "fileHash": "db95353043657e346b10c119ac9b28af7f11eb98b77e6f07ef214a3d93f0319c",
+    "fileMtime": 1759903581438
+}

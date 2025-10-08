@@ -1,0 +1,27 @@
+{
+    "id": "e5a39f83-6ced-4f93-92b9-ef9d3b1decd7",
+    "name": "boardController.js",
+    "originalFilePath": "assets/scripts/boardController.js",
+    "type": "unknown",
+    "size": 355,
+    "path": "assets/scripts/boardController.js",
+    "lastModified": "2024-11-08T10:42:48.328Z",
+    "isNew": false,
+    "__hidden": true,
+    "variables": [
+        {
+            "type": "Container",
+            "name": "particleDestination",
+            "value": null,
+            "order": 1
+        }
+    ],
+    "originalData": [
+        {
+            "type": "Container",
+            "name": "particleDestination",
+            "value": null,
+            "order": 1
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "f7cf60e2-40ae-4524-b014-91e5189439e9",
+    "name": "singlePlayer_Bar_Glow.png",
+    "originalFilePath": "assets/2d/Temp/atlas/singlePlayer_Bar_Glow.png",
+    "type": "image",
+    "size": 9263,
+    "path": "assets/2d/Temp/atlas/singlePlayer_Bar_Glow.png.meta",
+    "lastModified": "2024-07-03T10:51:40.251Z",
+    "isNew": false,
+    "exportCodeName": "singlePlayer_Bar_Glow",
+    "exportCode3DName": "singlePlayer_Bar_Glow",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

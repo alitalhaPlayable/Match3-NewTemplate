@@ -1,0 +1,46 @@
+boosters.png
+size:1092,120
+filter:Linear,Linear
+pma:true
+Propeller/Creat/Propeller_Body
+bounds:948,41,75,74
+rotate:90
+Propeller/Creat/Propellercreation_ (2)
+bounds:410,9,107,88
+rotate:90
+Propeller/Creat/Propellercreation_ (3)
+bounds:500,9,107,88
+rotate:90
+Propeller/Creat/Propellercreation_ (4)
+bounds:590,9,107,88
+rotate:90
+Propeller/Creat/Propellercreation_ (5)
+bounds:680,9,107,88
+rotate:90
+Propeller/Creat/Propellercreation_ (6)
+bounds:770,9,107,87
+rotate:90
+Propeller/Creat/Propellercreation_ (7)
+bounds:859,9,107,87
+rotate:90
+Propeller/Creat/Proppeller_Static
+bounds:219,12,104,93
+rotate:90
+Propeller/Creat/propeller_explode
+bounds:314,14,102,94
+rotate:90
+ROCKET/glow
+bounds:1035,4,51,51
+ROCKET/orange
+bounds:1024,57,66,59
+ROCKET/star
+bounds:985,13,26,26
+ROCKET/white
+bounds:1013,18,20,21
+ROCKET/yellow
+bounds:948,2,37,35
+rotate:90
+TNT/SSS_Fi_Explosion
+bounds:2,5,111,111
+TNT/tex_vfx_incendioScorch
+bounds:115,14,102,102

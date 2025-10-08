@@ -1,0 +1,15 @@
+{
+    "id": "c533b192-a21e-407c-8438-a89828e9aab6",
+    "name": "VS.png",
+    "originalFilePath": "assets/2d/Temp/atlas/VS.png",
+    "type": "image",
+    "size": 3180,
+    "path": "assets/2d/Temp/atlas/VS.png.meta",
+    "lastModified": "2024-07-03T10:51:40.588Z",
+    "isNew": false,
+    "exportCodeName": "VS",
+    "exportCode3DName": "VS",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

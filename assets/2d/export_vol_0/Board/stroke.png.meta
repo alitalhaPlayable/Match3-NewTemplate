@@ -1,0 +1,18 @@
+{
+    "id": "9ea2ad2d-a005-4667-ba79-8ba51451c1ae",
+    "name": "stroke.png",
+    "originalFilePath": "assets/2d/export_vol_0/Board/stroke.png",
+    "type": "image",
+    "size": 10021,
+    "path": "assets/2d/export_vol_0/Board/stroke.png",
+    "lastModified": "2024-11-08T12:55:49.500Z",
+    "isNew": false,
+    "exportCodeName": "stroke",
+    "exportCode3DName": "stroke",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 485,
+    "height": 485,
+    "__hidden": true
+}

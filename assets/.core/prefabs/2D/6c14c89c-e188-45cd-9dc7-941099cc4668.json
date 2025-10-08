@@ -1,0 +1,108 @@
+{
+    "name": "rocketAnim",
+    "type": "2D",
+    "root": {
+        "id": "ROOT",
+        "name": "ROOT",
+        "components": {},
+        "type": "prefabRoot",
+        "children": [
+            {
+                "name": "rocketAnim",
+                "type": "container",
+                "id": "4948567b-6b22-4a87-b238-265b0174e41d",
+                "components": {
+                    "node2D": {
+                        "label": "rocketAnim",
+                        "visible": true,
+                        "alpha": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "linked": false
+                        },
+                        "angle": 0,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "linked": false
+                        },
+                        "skew": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "zIndex": 0,
+                        "mask": "",
+                        "invertAlpha": false,
+                        "type": "node2D"
+                    },
+                    "container": {
+                        "type": "container",
+                        "debug": true,
+                        "width": 210,
+                        "height": 30
+                    }
+                },
+                "children": [
+                    {
+                        "name": "rocketEffect",
+                        "type": "animatedSprite",
+                        "id": "0822865b-3181-4a58-8e01-04e2bf27a853",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "rocketEffect",
+                                "visible": true,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 105,
+                                    "y": 15,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 0.4,
+                                    "y": 0.4,
+                                    "linked": true
+                                },
+                                "angle": 90,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5,
+                                    "linked": false
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "linked": false
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false
+                            },
+                            "animatedSprite": {
+                                "type": "animatedSprite",
+                                "animationSpeed": 1,
+                                "loop": false,
+                                "autoplay": false,
+                                "animationTexture": "8d35b93c-63d0-468e-9911-a563f6308eae",
+                                "animation": "",
+                                "tint": "#FFFFFF",
+                                "controller": null
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "id": "6c14c89c-e188-45cd-9dc7-941099cc4668",
+    "export": true,
+    "exportId": "rocketAnim"
+}

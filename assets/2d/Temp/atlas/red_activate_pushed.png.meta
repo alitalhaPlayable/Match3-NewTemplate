@@ -1,0 +1,15 @@
+{
+    "id": "75ef2992-4c64-4b8a-8340-f7da65b8ca92",
+    "name": "red_activate_pushed.png",
+    "originalFilePath": "assets/2d/Temp/atlas/red_activate_pushed.png",
+    "type": "image",
+    "size": 29177,
+    "path": "assets/2d/Temp/atlas/red_activate_pushed.png.meta",
+    "lastModified": "2024-07-03T10:51:40.401Z",
+    "isNew": false,
+    "exportCodeName": "red_activate_pushed",
+    "exportCode3DName": "red_activate_pushed",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

@@ -1,0 +1,17 @@
+{
+    "id": "b10a783c-e832-456a-967d-7df17afb7dfa",
+    "name": "rocket_icon.png",
+    "originalFilePath": "assets/2d/LevelEditor/rocket_icon.png",
+    "type": "image",
+    "size": 44830,
+    "path": "assets/2d/LevelEditor/rocket_icon.png",
+    "lastModified": "2025-01-24T05:23:44.978Z",
+    "exportCodeName": "rocket_spine",
+    "exportCode3DName": "rocket_icon",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true,
+    "width": 176,
+    "height": 226,
+    "__hidden": true
+}

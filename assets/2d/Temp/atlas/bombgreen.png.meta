@@ -1,0 +1,15 @@
+{
+    "id": "1b66c39e-eef6-4d2f-80e4-a100602309cf",
+    "name": "bombgreen.png",
+    "originalFilePath": "assets/2d/Temp/atlas/bombgreen.png",
+    "type": "image",
+    "size": 42384,
+    "path": "assets/2d/Temp/atlas/bombgreen.png.meta",
+    "lastModified": "2024-07-03T10:51:40.382Z",
+    "isNew": false,
+    "exportCodeName": "bombgreen",
+    "exportCode3DName": "bombgreen",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

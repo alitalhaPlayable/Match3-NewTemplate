@@ -1,0 +1,15 @@
+{
+    "id": "926238d1-e62a-457c-af8a-d7555c8c1c78",
+    "name": "bombred.png",
+    "originalFilePath": "assets/2d/Temp/atlas/bombred.png",
+    "type": "image",
+    "size": 42277,
+    "path": "assets/2d/Temp/atlas/bombred.png.meta",
+    "lastModified": "2024-07-03T10:51:40.698Z",
+    "isNew": false,
+    "exportCodeName": "bombred",
+    "exportCode3DName": "bombred",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

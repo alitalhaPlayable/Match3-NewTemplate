@@ -1,0 +1,15 @@
+{
+    "id": "04b911db-4d3d-49fe-803e-78dfa6692092",
+    "name": "green.png",
+    "originalFilePath": "assets/2d/Temp/atlas/green.png",
+    "type": "image",
+    "size": 38197,
+    "path": "assets/2d/Temp/atlas/green.png.meta",
+    "lastModified": "2024-07-03T10:51:40.307Z",
+    "isNew": false,
+    "exportCodeName": "green",
+    "exportCode3DName": "green",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

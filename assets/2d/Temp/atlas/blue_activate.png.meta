@@ -1,0 +1,15 @@
+{
+    "id": "fff92bae-2df7-4e3e-83ed-ed859678606e",
+    "name": "blue_activate.png",
+    "originalFilePath": "assets/2d/Temp/atlas/blue_activate.png",
+    "type": "image",
+    "size": 7951,
+    "path": "assets/2d/Temp/atlas/blue_activate.png.meta",
+    "lastModified": "2024-07-03T10:51:40.606Z",
+    "isNew": false,
+    "exportCodeName": "blue_activate",
+    "exportCode3DName": "blue_activate",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

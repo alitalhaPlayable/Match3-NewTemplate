@@ -1,0 +1,13 @@
+{
+    "id": "4c44e392-691e-470e-94e6-07e037d3bc70",
+    "name": "crash.mp3",
+    "originalFilePath": "assets/audio/crash.mp3",
+    "type": "audio",
+    "size": 13492,
+    "path": "assets/audio/crash.mp3",
+    "lastModified": "2022-08-12T07:07:27.587Z",
+    "isNew": false,
+    "isAudioSprite": true,
+    "loop": false,
+    "__hidden": true
+}

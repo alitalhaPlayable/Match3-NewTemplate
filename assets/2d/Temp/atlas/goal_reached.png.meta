@@ -1,0 +1,15 @@
+{
+    "id": "ac7a8b49-a566-4c64-b0b6-aae6c844f143",
+    "name": "goal_reached.png",
+    "originalFilePath": "assets/2d/Temp/atlas/goal_reached.png",
+    "type": "image",
+    "size": 56868,
+    "path": "assets/2d/Temp/atlas/goal_reached.png.meta",
+    "lastModified": "2024-07-03T10:51:40.072Z",
+    "isNew": false,
+    "exportCodeName": "goal_reached",
+    "exportCode3DName": "goal_reached",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

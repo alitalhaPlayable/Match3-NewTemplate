@@ -1,0 +1,12 @@
+{
+    "id": "37cc9000-6044-4789-bc23-2efd2e04cd45",
+    "name": "light_effect.animation",
+    "originalFilePath": "assets/2d/effects/light_effect.animation",
+    "type": "animation",
+    "size": 7110,
+    "path": "assets/2d/effects/light_effect.animation",
+    "lastModified": "2024-11-08T08:49:36.000Z",
+    "isNew": true,
+    "exportCodeName": "light_effect",
+    "enableTiny": true
+}

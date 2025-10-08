@@ -1,0 +1,15 @@
+{
+    "id": "3a2aeb46-f9ed-4086-b1a0-73e04e40e72e",
+    "name": "bomborange.png",
+    "originalFilePath": "assets/2d/Temp/atlas/bomborange.png",
+    "type": "image",
+    "size": 40249,
+    "path": "assets/2d/Temp/atlas/bomborange.png.meta",
+    "lastModified": "2024-07-03T10:51:40.901Z",
+    "isNew": false,
+    "exportCodeName": "bomborange",
+    "exportCode3DName": "bomborange",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

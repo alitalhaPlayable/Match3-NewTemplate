@@ -1,0 +1,15 @@
+{
+    "id": "cabe9796-d8b7-4212-b6dc-c7bcad05585a",
+    "name": "pvp_round_bg.png",
+    "originalFilePath": "assets/2d/Temp/atlas/pvp_round_bg.png",
+    "type": "image",
+    "size": 3475,
+    "path": "assets/2d/Temp/atlas/pvp_round_bg.png.meta",
+    "lastModified": "2024-07-03T10:51:40.864Z",
+    "isNew": false,
+    "exportCodeName": "pvp_round_bg",
+    "exportCode3DName": "pvp_round_bg",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

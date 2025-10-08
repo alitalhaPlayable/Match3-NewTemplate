@@ -1,0 +1,17 @@
+{
+    "id": "1d6581cb-45a9-417f-9b71-ac2d3c2fc89b",
+    "name": "block_30.png",
+    "originalFilePath": "assets/2d/export_vol_0/Blocks/block_30.png",
+    "type": "image",
+    "size": 11816,
+    "path": "assets/2d/export_vol_0/Blocks/block_30.png",
+    "lastModified": "2025-04-09T06:01:30.389Z",
+    "exportCodeName": "block_30",
+    "exportCode3DName": "block_30",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true,
+    "width": 80,
+    "height": 93,
+    "__hidden": true
+}

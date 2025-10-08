@@ -1,0 +1,15 @@
+{
+    "id": "ba456406-b66f-45c7-a0d4-d3c527375329",
+    "name": "red_particle.png",
+    "originalFilePath": "assets/2d/Temp/atlas/red_particle.png",
+    "type": "image",
+    "size": 277,
+    "path": "assets/2d/Temp/atlas/red_particle.png.meta",
+    "lastModified": "2024-07-03T10:51:40.143Z",
+    "isNew": false,
+    "exportCodeName": "red_particle",
+    "exportCode3DName": "red_particle",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

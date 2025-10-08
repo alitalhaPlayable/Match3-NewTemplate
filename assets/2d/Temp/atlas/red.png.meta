@@ -1,0 +1,15 @@
+{
+    "id": "77849834-ffee-4d64-b0b6-88d2e7db9a43",
+    "name": "red.png",
+    "originalFilePath": "assets/2d/Temp/atlas/red.png",
+    "type": "image",
+    "size": 44525,
+    "path": "assets/2d/Temp/atlas/red.png.meta",
+    "lastModified": "2024-07-03T10:51:40.810Z",
+    "isNew": false,
+    "exportCodeName": "red",
+    "exportCode3DName": "red",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

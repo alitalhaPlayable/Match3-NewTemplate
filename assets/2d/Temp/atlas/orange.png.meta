@@ -1,0 +1,15 @@
+{
+    "id": "49c0da46-9fe2-4087-b847-8463b0dc23ca",
+    "name": "orange.png",
+    "originalFilePath": "assets/2d/Temp/atlas/orange.png",
+    "type": "image",
+    "size": 36081,
+    "path": "assets/2d/Temp/atlas/orange.png.meta",
+    "lastModified": "2024-07-03T10:51:40.197Z",
+    "isNew": false,
+    "exportCodeName": "orange",
+    "exportCode3DName": "orange",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

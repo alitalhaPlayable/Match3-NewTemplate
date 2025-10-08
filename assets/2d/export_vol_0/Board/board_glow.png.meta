@@ -1,0 +1,18 @@
+{
+    "id": "45ad4e95-5171-4c3d-9acf-14874de53fe9",
+    "name": "board_glow.png",
+    "originalFilePath": "assets/2d/export_vol_0/Board/board_glow.png",
+    "type": "image",
+    "size": 14503,
+    "path": "assets/2d/export_vol_0/Board/board_glow.png",
+    "lastModified": "2024-11-08T12:55:49.977Z",
+    "isNew": false,
+    "exportCodeName": "board_glow",
+    "exportCode3DName": "board_glow",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 576,
+    "height": 555,
+    "__hidden": true
+}

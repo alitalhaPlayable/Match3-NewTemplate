@@ -1,0 +1,15 @@
+{
+    "id": "113785ae-b066-407e-b5ec-6720339581a6",
+    "name": "particle.png",
+    "originalFilePath": "assets/2d/Temp/atlas/particle.png",
+    "type": "image",
+    "size": 15422,
+    "path": "assets/2d/Temp/atlas/particle.png.meta",
+    "lastModified": "2024-07-03T10:51:40.551Z",
+    "isNew": false,
+    "exportCodeName": "particle",
+    "exportCode3DName": "particle",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

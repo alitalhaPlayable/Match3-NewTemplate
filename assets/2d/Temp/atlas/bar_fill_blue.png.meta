@@ -1,0 +1,15 @@
+{
+    "id": "baec2ed3-c9d5-4798-b79f-de54205952ad",
+    "name": "bar_fill_blue.png",
+    "originalFilePath": "assets/2d/Temp/atlas/bar_fill_blue.png",
+    "type": "image",
+    "size": 3874,
+    "path": "assets/2d/Temp/atlas/bar_fill_blue.png.meta",
+    "lastModified": "2024-07-03T10:51:40.513Z",
+    "isNew": false,
+    "exportCodeName": "bar_fill_blue",
+    "exportCode3DName": "bar_fill_blue",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

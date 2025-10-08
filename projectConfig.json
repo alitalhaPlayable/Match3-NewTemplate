@@ -1,5 +1,5 @@
 {
-    "projectType": "3D",
+    "projectType": "2D",
     "isStudioProject": true,
     "studioVersion": "1.5.3",
     "projectVersion": 2,
@@ -88,12 +88,13 @@
     },
     "buildSettings": {
         "analyzer": false,
+        "uploadToGearbox": true,
         "hideConsoles": true,
         "iosLink": "https://apps.apple.com/",
         "androidLink": "https://play.google.com/"
     },
     "path": "C:\\Users\\denizk\\Desktop\\Projects\\Match3-NewTemplate",
-    "lastEditedScene": "be75e770-4268-4439-97a9-ae9d6051dd88",
+    "lastEditedScene": "6b4537c4-69d5-4f80-838c-9b760d09f35d",
     "lastEditedSceneView": "2D",
     "uID": "X_8fRhIriejadDfhpnT5uktqs",
     "cID": "playableFactoryInternal"

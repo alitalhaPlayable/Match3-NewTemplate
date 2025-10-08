@@ -1,0 +1,672 @@
+{
+    "name": "Tile",
+    "type": "2D",
+    "root": {
+        "id": "ROOT",
+        "name": "ROOT",
+        "components": {},
+        "type": "prefabRoot",
+        "children": [
+            {
+                "name": "Tile",
+                "type": "container",
+                "id": "d742dc7f-9e7f-4338-b918-d7c24c81567e",
+                "components": {
+                    "node2D": {
+                        "label": "Tile",
+                        "visible": true,
+                        "alpha": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "linked": false
+                        },
+                        "angle": 0,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "linked": false
+                        },
+                        "skew": {
+                            "x": 0,
+                            "y": 0,
+                            "linked": false
+                        },
+                        "zIndex": 0,
+                        "mask": "",
+                        "invertAlpha": false,
+                        "eventMode": "passive",
+                        "optionalLoad": false,
+                        "optionalLoadID": "",
+                        "blendMode": "inherit",
+                        "type": "node2D"
+                    },
+                    "container": {
+                        "type": "container",
+                        "debug": true,
+                        "width": 100,
+                        "height": 100,
+                        "landscape": false,
+                        "landscapeWidth": 100,
+                        "landscapeHeight": 100
+                    }
+                },
+                "children": [
+                    {
+                        "name": "tileBg",
+                        "type": "sprite",
+                        "id": "ae773bf8-342d-4e76-aa03-0239cc23bf09",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "tileBg",
+                                "visible": true,
+                                "alpha": 0.1,
+                                "position": {
+                                    "x": 50,
+                                    "y": 50,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit"
+                            },
+                            "sprite": {
+                                "type": "sprite",
+                                "texture": {
+                                    "type": "texture",
+                                    "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                    "uploadId": "",
+                                    "stuffs": null,
+                                    "stuffsDataId": "j96vt4",
+                                    "localPath": "assets/2d/white.png"
+                                },
+                                "landscapeTexture": {
+                                    "type": "texture",
+                                    "path": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+                                    "uploadId": "",
+                                    "stuffs": null,
+                                    "stuffsDataId": "k3xzms",
+                                    "localPath": "assets/2d/white.png"
+                                },
+                                "landscape": false,
+                                "tint": "#FFFFFF"
+                            },
+                            "responsive2D": {
+                                "type": "responsive2D",
+                                "resizes": {
+                                    "0761e5ba-33dd-452a-99c1-bdcec1535b1b": {
+                                        "isActive": true,
+                                        "selected": "portrait",
+                                        "portrait": {
+                                            "width": 100,
+                                            "height": 100,
+                                            "fitType": "min",
+                                            "origin": "center",
+                                            "referenceBottom": "",
+                                            "referenceTop": "",
+                                            "referenceLeft": "",
+                                            "referenceRight": "",
+                                            "verticalSpace": 0,
+                                            "horizontalSpace": 0,
+                                            "verticalSpaceUnit": "%",
+                                            "horizontalSpaceUnit": "%"
+                                        },
+                                        "landscape": {
+                                            "enabled": false,
+                                            "width": 50,
+                                            "height": 50,
+                                            "fitType": "min",
+                                            "origin": "center",
+                                            "referenceBottom": "",
+                                            "referenceTop": "",
+                                            "referenceLeft": "",
+                                            "referenceRight": "",
+                                            "verticalSpace": 0,
+                                            "horizontalSpace": 0,
+                                            "verticalSpaceUnit": "%",
+                                            "horizontalSpaceUnit": "%"
+                                        },
+                                        "settings": {
+                                            "enablePosition": true,
+                                            "enableScale": true
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "name": "left",
+                        "type": "container",
+                        "id": "e22a74d3-8d36-497c-b5b4-db05b3b1246a",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "left",
+                                "visible": false,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 5,
+                                    "y": 50,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit"
+                            },
+                            "container": {
+                                "type": "container",
+                                "debug": false,
+                                "width": 100,
+                                "height": 100,
+                                "landscape": false,
+                                "landscapeWidth": 100,
+                                "landscapeHeight": 100
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "graph",
+                                "type": "graphics",
+                                "id": "4ba024b6-a3d7-42cc-8471-e4939f141635",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "graph",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 50,
+                                            "y": -5,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit"
+                                    },
+                                    "graphics": {
+                                        "type": "graphics",
+                                        "shapes": {
+                                            "ce125a77-1a4e-4c69-b788-af655c71c15c": {
+                                                "type": "line",
+                                                "position": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "linked": false
+                                                },
+                                                "fill": {
+                                                    "enabled": false,
+                                                    "color": "#ffffff",
+                                                    "alpha": 1
+                                                },
+                                                "stroke": {
+                                                    "enabled": true,
+                                                    "width": 10,
+                                                    "color": "#fff940",
+                                                    "alpha": 1
+                                                },
+                                                "moveTo": {
+                                                    "x": 0,
+                                                    "y": 110
+                                                },
+                                                "lines": {
+                                                    "60e1848c-a4cf-4574-9914-80896ce388ff": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "focusedShapeId": "ce125a77-1a4e-4c69-b788-af655c71c15c"
+                                    }
+                                },
+                                "children": []
+                            }
+                        ],
+                        "open": false,
+                        "hidden": true
+                    },
+                    {
+                        "name": "right",
+                        "type": "container",
+                        "id": "2d3f3c85-c5a2-4bc3-8147-dd0d7c2583f5",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "right",
+                                "visible": false,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 95,
+                                    "y": 50,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "angle": 0,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit"
+                            },
+                            "container": {
+                                "type": "container",
+                                "debug": false,
+                                "width": 100,
+                                "height": 100,
+                                "landscape": false,
+                                "landscapeWidth": 100,
+                                "landscapeHeight": 100
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "graph",
+                                "type": "graphics",
+                                "id": "4c262adc-8930-49e3-b6ae-14136d65feff",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "graph",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 50,
+                                            "y": -5,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit"
+                                    },
+                                    "graphics": {
+                                        "type": "graphics",
+                                        "shapes": {
+                                            "ce125a77-1a4e-4c69-b788-af655c71c15c": {
+                                                "type": "line",
+                                                "position": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "linked": false
+                                                },
+                                                "fill": {
+                                                    "enabled": false,
+                                                    "color": "#ffffff",
+                                                    "alpha": 1
+                                                },
+                                                "stroke": {
+                                                    "enabled": true,
+                                                    "width": 10,
+                                                    "color": "#fff940",
+                                                    "alpha": 1
+                                                },
+                                                "moveTo": {
+                                                    "x": 0,
+                                                    "y": 110
+                                                },
+                                                "lines": {
+                                                    "60e1848c-a4cf-4574-9914-80896ce388ff": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "focusedShapeId": "ce125a77-1a4e-4c69-b788-af655c71c15c"
+                                    }
+                                },
+                                "children": []
+                            }
+                        ],
+                        "open": false,
+                        "hidden": true
+                    },
+                    {
+                        "name": "bottom",
+                        "type": "container",
+                        "id": "26c10b96-1bbc-4440-bf33-922518d38000",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "bottom",
+                                "visible": false,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 50,
+                                    "y": 100,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "angle": 90,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit"
+                            },
+                            "container": {
+                                "type": "container",
+                                "debug": false,
+                                "width": 100,
+                                "height": 100,
+                                "landscape": false,
+                                "landscapeWidth": 100,
+                                "landscapeHeight": 100
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "graph",
+                                "type": "graphics",
+                                "id": "61062bfb-315c-4209-a3a8-fecbdfc473e9",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "graph",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 50,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit"
+                                    },
+                                    "graphics": {
+                                        "type": "graphics",
+                                        "shapes": {
+                                            "ce125a77-1a4e-4c69-b788-af655c71c15c": {
+                                                "type": "line",
+                                                "position": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "linked": false
+                                                },
+                                                "fill": {
+                                                    "enabled": false,
+                                                    "color": [
+                                                        "#fff940"
+                                                    ],
+                                                    "alpha": 1
+                                                },
+                                                "stroke": {
+                                                    "enabled": true,
+                                                    "width": 10,
+                                                    "color": "#fff940",
+                                                    "alpha": 1
+                                                },
+                                                "moveTo": {
+                                                    "x": 0,
+                                                    "y": 100
+                                                },
+                                                "lines": {
+                                                    "60e1848c-a4cf-4574-9914-80896ce388ff": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "focusedShapeId": "ce125a77-1a4e-4c69-b788-af655c71c15c"
+                                    }
+                                },
+                                "children": []
+                            }
+                        ],
+                        "open": false,
+                        "hidden": true
+                    },
+                    {
+                        "name": "top",
+                        "type": "container",
+                        "id": "01b0374f-2ba3-4d66-a3a2-0f780fb233c3",
+                        "components": {
+                            "node2D": {
+                                "type": "node2D",
+                                "label": "top",
+                                "visible": false,
+                                "alpha": 1,
+                                "position": {
+                                    "x": 50,
+                                    "y": 0,
+                                    "linked": false
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "angle": 90,
+                                "origin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "skew": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "zIndex": 0,
+                                "mask": "",
+                                "invertAlpha": false,
+                                "eventMode": "passive",
+                                "optionalLoad": false,
+                                "optionalLoadID": "",
+                                "blendMode": "inherit"
+                            },
+                            "container": {
+                                "type": "container",
+                                "debug": false,
+                                "width": 100,
+                                "height": 100,
+                                "landscape": false,
+                                "landscapeWidth": 100,
+                                "landscapeHeight": 100
+                            }
+                        },
+                        "children": [
+                            {
+                                "name": "graph",
+                                "type": "graphics",
+                                "id": "d211fc94-4f1e-42c8-835e-c2b00633de49",
+                                "components": {
+                                    "node2D": {
+                                        "type": "node2D",
+                                        "label": "graph",
+                                        "visible": true,
+                                        "alpha": 1,
+                                        "position": {
+                                            "x": 50,
+                                            "y": 0,
+                                            "linked": false
+                                        },
+                                        "scale": {
+                                            "x": 1,
+                                            "y": 1
+                                        },
+                                        "angle": 0,
+                                        "origin": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "skew": {
+                                            "x": 0,
+                                            "y": 0
+                                        },
+                                        "zIndex": 0,
+                                        "mask": "",
+                                        "invertAlpha": false,
+                                        "eventMode": "passive",
+                                        "optionalLoad": false,
+                                        "optionalLoadID": "",
+                                        "blendMode": "inherit"
+                                    },
+                                    "graphics": {
+                                        "type": "graphics",
+                                        "shapes": {
+                                            "ce125a77-1a4e-4c69-b788-af655c71c15c": {
+                                                "type": "line",
+                                                "position": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "linked": false
+                                                },
+                                                "fill": {
+                                                    "enabled": false,
+                                                    "color": "#ffffff",
+                                                    "alpha": 1
+                                                },
+                                                "stroke": {
+                                                    "enabled": true,
+                                                    "width": 10,
+                                                    "color": "#fff940",
+                                                    "alpha": 1
+                                                },
+                                                "moveTo": {
+                                                    "x": 0,
+                                                    "y": 100
+                                                },
+                                                "lines": {
+                                                    "60e1848c-a4cf-4574-9914-80896ce388ff": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "focusedShapeId": "ce125a77-1a4e-4c69-b788-af655c71c15c"
+                                    }
+                                },
+                                "children": []
+                            }
+                        ],
+                        "open": false,
+                        "hidden": true
+                    }
+                ],
+                "open": true
+            }
+        ]
+    },
+    "id": "bfe24dc7-f5a6-4a26-a3b1-5eb1dbbb7b6e",
+    "export": true,
+    "exportId": "Tile"
+}

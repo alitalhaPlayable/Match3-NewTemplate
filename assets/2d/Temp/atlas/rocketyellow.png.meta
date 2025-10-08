@@ -1,0 +1,15 @@
+{
+    "id": "d3017a2e-68c1-4286-bafe-840cf0748c42",
+    "name": "rocketyellow.png",
+    "originalFilePath": "assets/2d/Temp/atlas/rocketyellow.png",
+    "type": "image",
+    "size": 30266,
+    "path": "assets/2d/Temp/atlas/rocketyellow.png.meta",
+    "lastModified": "2024-07-03T10:51:40.661Z",
+    "isNew": false,
+    "exportCodeName": "rocketyellow",
+    "exportCode3DName": "rocketyellow",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": true
+}

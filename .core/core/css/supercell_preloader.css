@@ -1,0 +1,137 @@
+/* Supercell Preloader Styles */
+#preloader-pf {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, #000000 0%, #1a1a1a 50%, #000000 100%);
+	z-index: 10000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#preloader-pf .supercell-logo {
+	position: relative;
+	z-index: 2;
+	margin-bottom: 60px;
+}
+
+#preloader-pf .supercell-logo img {
+	width: 280px;
+	height: auto;
+	filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+	animation: logoGlow 2s ease-in-out infinite alternate;
+}
+
+#preloader-pf .supercell-glow {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 400px;
+	background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+	z-index: 1;
+	animation: glowPulse 3s ease-in-out infinite;
+}
+
+#preloader-pf .playable-factory {
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+    right: 0;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	z-index: 2;
+}
+
+#preloader-pf .playable-factory .pf-icon {
+	width: 200px;
+    max-width: 22%;
+	height: auto;
+    margin: auto;
+}
+
+#preloader-pf .playable-factory .pf-text {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+#preloader-pf .loading-bar {
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 200px;
+	height: 4px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 2px;
+	overflow: hidden;
+	z-index: 2;
+}
+
+#preloader-pf .loading-progress {
+	height: 100%;
+	background: linear-gradient(90deg, #ffffff 0%, #cccccc 100%);
+	border-radius: 2px;
+	width: 0%;
+	transition: width 0.3s ease;
+}
+
+@keyframes logoGlow {
+	0% {
+		filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+	}
+	100% {
+		filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.6));
+	}
+}
+
+@keyframes glowPulse {
+	0% {
+		opacity: 0.3;
+		transform: translate(-50%, -50%) scale(0.8);
+	}
+	50% {
+		opacity: 0.6;
+		transform: translate(-50%, -50%) scale(1.1);
+	}
+	100% {
+		opacity: 0.3;
+		transform: translate(-50%, -50%) scale(0.8);
+	}
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	#preloader-pf .supercell-logo img {
+		width: 200px;
+	}
+	
+	#preloader-pf .supercell-glow {
+		width: 300px;
+		height: 300px;
+	}
+	
+	#preloader-pf .playable-factory {
+		bottom: 20px;
+		left: 0;
+        right: 0;
+	}
+	
+	#preloader-pf .playable-factory .pf-text {
+		font-size: 10px;
+	}
+	
+	#preloader-pf .loading-bar {
+		width: 150px;
+		bottom: 80px;
+	}
+}

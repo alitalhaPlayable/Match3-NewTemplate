@@ -1,0 +1,16 @@
+{
+    "name": "Main Scene",
+    "id": "be75e770-4268-4439-97a9-ae9d6051dd88",
+    "type": "2D",
+    "root": {
+        "id": "ROOT",
+        "name": "ROOT",
+        "children": [],
+        "type": "root",
+        "components": {}
+    },
+    "settings": {
+        "physicsWorld2D": "",
+        "enablePhysics2D": false
+    }
+}

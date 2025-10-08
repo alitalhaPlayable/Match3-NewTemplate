@@ -1,0 +1,15 @@
+{
+    "id": "9ff803f4-88cf-47a1-bec9-6fdfd2816120",
+    "name": "audio_off.png",
+    "originalFilePath": "assets/2d/audio_off.png",
+    "type": "image",
+    "size": 2450,
+    "path": "assets/2d/audio_off.png",
+    "lastModified": "2024-05-10T19:03:11.542Z",
+    "isNew": false,
+    "exportCodeName": "audio_off.png",
+    "exportCode3DName": "audio_off.png",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

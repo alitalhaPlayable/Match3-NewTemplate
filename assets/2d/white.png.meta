@@ -1,0 +1,15 @@
+{
+    "id": "ce54de56-668d-42e7-81a2-68d8b81b8561",
+    "name": "white.png",
+    "originalFilePath": "assets/2d/white.png",
+    "type": "image",
+    "size": 414,
+    "path": "assets/2d/white.png",
+    "lastModified": "2024-06-25T11:27:23.999Z",
+    "isNew": false,
+    "exportCodeName": "white.png",
+    "exportCode3DName": "white.png",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

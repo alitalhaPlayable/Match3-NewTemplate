@@ -1,0 +1,100 @@
+{
+    "projectType": "3D",
+    "isStudioProject": true,
+    "studioVersion": "1.5.3",
+    "projectVersion": 2,
+    "categoryBits": [
+        "1",
+        "2",
+        "4",
+        "8",
+        "16",
+        "32",
+        "64",
+        "128",
+        "256",
+        "512",
+        "1024",
+        "2048",
+        "4096",
+        "8192",
+        "16384",
+        "32768"
+    ],
+    "rendererSettings3D": {
+        "antialias": true,
+        "alpha": false,
+        "resolution": 2,
+        "toneMapping": "NoToneMapping",
+        "toneMappingExposure": 1,
+        "shadowMapEnabled": false,
+        "shadowMapType": "VSMShadowMap",
+        "logarithmicDepthBuffer": true,
+        "outputColorSpace": "SRGBColorSpace"
+    },
+    "generalSettings": {
+        "library": "2D/3D",
+        "enableAudio": false,
+        "convertFontsToWoff2": true,
+        "preloader": "default"
+    },
+    "resize2DSettings": {
+        "wRatioMax": 150,
+        "hRatioMax": 150,
+        "vSpaceMax": 150,
+        "hSpaceMax": 150
+    },
+    "physics2DSettings": {
+        "physicsType": "none",
+        "enableDebug": false,
+        "enableSimulation": false,
+        "enableWorldBounds": false,
+        "worldBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 800
+        },
+        "worldBoundsSides": {
+            "top": false,
+            "right": true,
+            "bottom": true,
+            "left": true
+        },
+        "collisionCategories": [
+            {
+                "label": "default",
+                "value": "1"
+            }
+        ],
+        "outlinerOpacityThreshold": 50,
+        "outlinerSimplifyThreshold": 50
+    },
+    "eventsSettings": {
+        "eventNames": []
+    },
+    "physics3DSettings": {
+        "physicsType": "none",
+        "collisionCategories": [
+            {
+                "label": "default",
+                "value": "1"
+            }
+        ],
+        "enableDebug": true
+    },
+    "bitmapFontSettings": {
+        "bitmapFonts": {}
+    },
+    "buildSettings": {
+        "analyzer": false,
+        "hideConsoles": true,
+        "iosLink": "https://apps.apple.com/",
+        "androidLink": "https://play.google.com/"
+    },
+    "path": "C:\\Users\\denizk\\Desktop\\Projects\\Match3-NewTemplate",
+    "lastEditedScene": "be75e770-4268-4439-97a9-ae9d6051dd88",
+    "lastEditedSceneView": "2D",
+    "uID": "X_8fRhIriejadDfhpnT5uktqs",
+    "cID": "playableFactoryInternal"
+}

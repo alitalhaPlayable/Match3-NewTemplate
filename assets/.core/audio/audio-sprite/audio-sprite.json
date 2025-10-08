@@ -1,0 +1,27 @@
+{
+    "resources": [
+        "C:\\Users\\playable\\gearbox\\studio-template\\assets\\.core\\audio\\audio-sprite\\audio-sprite.m4a"
+    ],
+    "spritemap": {
+        "bounce": {
+            "start": 0,
+            "end": 0.11687074829931973,
+            "loop": false
+        },
+        "collect": {
+            "start": 1.9999999999999998,
+            "end": 2.368208616780045,
+            "loop": false
+        },
+        "hit": {
+            "start": 3.9999999999999996,
+            "end": 4.274467120181406,
+            "loop": false
+        },
+        "jump": {
+            "start": 6,
+            "end": 6.250294784580499,
+            "loop": false
+        }
+    }
+}

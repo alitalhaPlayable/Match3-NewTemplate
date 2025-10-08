@@ -1,0 +1,18 @@
+{
+    "id": "7d079673-4ccd-49b3-8982-00b4f88ec2ea",
+    "name": "eight.png",
+    "originalFilePath": "assets/2d/dummy/eight.png",
+    "type": "image",
+    "size": 13077,
+    "path": "assets/2d/dummy/eight.png",
+    "lastModified": "2024-09-21T23:33:08.521Z",
+    "isNew": false,
+    "exportCodeName": "eight",
+    "exportCode3DName": "eight",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 256,
+    "height": 128,
+    "__hidden": true
+}

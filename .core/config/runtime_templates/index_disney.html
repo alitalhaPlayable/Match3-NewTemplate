@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Game</title>
+	</head>
+
+	<body>
+		<!--preloader-start-->
+		<div id="preloader-pf">
+			<div id="preloader-bg"></div>
+			<div id="preloader-pattern"></div>
+
+			<img class="preloader-logo" src=".core/config/assets/disney_preloader/logo.png" alt="logo" />
+
+			<div id="preloader-side-bg">
+				<div class="preloader-inner-bg">
+					<div class="preloader-center-wrapper">
+						<div id="preloader-center" class="preloader-center" style="display: none">
+							<div class="pf-gear">
+								<img class="pf-gear-img" src=".core/config/assets/rollic_preloader/gear.png" alt="gear" />
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="preloader-inner-bg">
+					<div class="preloader-center-wrapper">
+						<div class="preloader-center" id="preloader-center" style="display: none">
+							<div class="pf-gear">
+								<img class="pf-gear-img pf-gear-wave" src=".core/config/assets/rollic_preloader/wave_stroke.png" alt="gear wave" />
+							</div>
+							<img class="pf-play-btn" src=".core/config/assets/rollic_preloader/play.png" alt="gear" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="preloader-inner">
+				<img id="pf-title" src=".core/config/assets/rollic_preloader/pf_title.png" />
+				<img id="rollic-title" src=".core/config/assets/disney_preloader/disney_pixar.png" />
+			</div>
+		</div>
+
+		<script>
+			(function () {
+				var gears = document.getElementsByClassName("preloader-center");
+				var gearsWrapper = document.getElementsByClassName("preloader-center-wrapper");
+				if (!gears) return;
+				function scaleGears() {
+					for (let gear of gears) {
+						gear.style.display = "block";
+					}
+					var w = window.innerWidth;
+					var h = window.innerHeight;
+					var scale = Math.min((w * 0.45) / 370, (h * 0.28) / 320, 1);
+					const transformText = "scale(" + scale + ") translate(" + (-370 * 0.5)  + "px, " + (-320 * 0.5)  + "px)";
+					for (let gearWrapper of gearsWrapper) {
+						gearWrapper.style.transformOrigin = "top left";
+						gearWrapper.style.transform = transformText;
+					}
+				}
+
+				scaleGears();
+				window.addEventListener("resize", scaleGears);
+			})();
+		</script>
+		<!--preloader-end-->
+
+		<script type="module" src="../../../src/index.ts"></script>
+	</body>
+</html>

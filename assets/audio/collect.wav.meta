@@ -1,0 +1,11 @@
+{
+    "id": "22cd7829-c774-4187-8ca9-ba7ce2009dff",
+    "name": "collect.wav",
+    "originalFilePath": "assets/audio/collect.wav",
+    "type": "audio",
+    "size": 32520,
+    "path": "assets/audio/collect.wav",
+    "lastModified": "2025-07-25T11:39:47.119Z",
+    "isAudioSprite": true,
+    "loop": false
+}

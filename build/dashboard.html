@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8">
+       <meta id = "viewport" name = "viewport" content = "width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+
+       <script>
+            var clickTag='https://apps.apple.com/'
+            var iosLink="https://apps.apple.com/";
+            var androidLink="https://play.google.com/";
+
+           var userAgent = navigator.userAgent || navigator.vendor;
+           var clickTag = /android/i.test(userAgent) ? androidLink : iosLink;
+
+           var link = iosLink;
+           var link2 = androidLink;
+           var lp_url = clickTag;
+           
+           ////MOBVISTA FUNCTIONS
+           function gameStart()
+           {
+               if(!window.app || !app.gameStart){
+                   setTimeout(gameStart, 250);
+                   return;
+               }
+               app.gameStart();
+           }
+           
+           function gameClose()
+           {
+               if(!app)return;
+               app.gameClose();
+           }
+
+           function mobvistaGameReady(){
+               window.gameReady && window.gameReady();
+           }
+           
+           function mobvistaGameEnd(){
+               window.gameEnd && window.gameEnd();
+           }
+       </script>
+     
+     <style>#modal {
+	z-index: 9999;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body,
+html {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	background: 0 0;
+
+	touch-action: none;
+}
+
+canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.hide {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s, visiblility 1s;
+}
+
+.show {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 1s, visiblility 1s;
+}
+</style>
+   </head>
+   <body>
+</body>
+</html>

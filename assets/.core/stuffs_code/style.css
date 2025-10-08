@@ -1,0 +1,109 @@
+.amaze-board-cover {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 99;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.5s ease 0s;
+}
+
+.amaze-board {
+	opacity: 0;
+	position: fixed;
+	height: 100vh;
+	display: block;
+	top: -100%;
+	left: 0;
+	right: 0;
+	background: rgb(255, 255, 255);
+	font-size: 20px;
+	z-index: 999;
+	padding: 10px;
+	transition: all 0.5s ease 0s;
+	/* transform: translateX(50%); */
+	width: 940px;
+	margin: auto;
+	border: 2px solid black;
+}
+
+.amaze-board label {
+	font-size: inherit;
+	margin-left: 5px;
+}
+
+.amaze-close-btn {
+	float: right;
+	padding: 7px;
+}
+
+.amaze-grid {
+	display: block;
+	vertical-align: top;
+}
+
+.amaze-grid > div {
+	height: 50px;
+}
+
+.amaze-tile {
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	background: #ffffff;
+
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	user-select: none;
+}
+
+.amaze-ball {
+	border-radius: 50%;
+	background: #ff0000;
+	width: 30px;
+	height: 30px;
+	display: block;
+
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+}
+
+.amaze-menu {
+	border: 2px solid #333333;
+	width: 300px;
+	height: 200px;
+	overflow: auto;
+	background: #ffffff;
+	position: absolute;
+	display: none;
+	z-index: 5;
+}
+
+.amaze-info {
+	width: 250px;
+	background: #ffffff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: none;
+	padding: 10px;
+}
+
+.amaze-info span {
+	display: block;
+}
+
+.amaze-right-info {
+	right: 0;
+	left: unset;
+}

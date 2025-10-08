@@ -1,0 +1,36 @@
+// downgrade ESLINT plugin to 2.1.6 for skipping modal. (Right click install another version...)
+{
+	"env": {
+		"browser": true,
+		"es2020": true
+	},
+	"extends": ["eslint:recommended", "prettier"],
+	"parserOptions": {
+		"ecmaVersion": 12,
+		"sourceType": "module"
+	},
+	"globals": {
+		"app": "readonly",
+		"main": "readonly",
+		"data": "readonly",
+		"scene": "readonly",
+		"ui": "readonly",
+		"module": "readonly",
+		"THREE": "readonly",
+		"require": "readonly"
+	},
+	"rules": {
+		"camelcase": "error",
+		"no-multi-assign": "error",
+		"no-var": "error",
+		"no-unneeded-ternary": "error",
+		"no-unused-vars": ["warn", { "args": "none" }],
+		"max-classes-per-file": ["error", 1],
+		"complexity": ["warn", 30],
+		"max-depth": ["warn", 8],
+		"array-callback-return": "error",
+		"no-param-reassign": "error",
+		"no-useless-escape": "off"
+	},
+	"parser": "@babel/eslint-parser"
+}

@@ -1,0 +1,11 @@
+{
+    "id": "d0bf5047-9e1b-4f45-9c09-d67bbdadb184",
+    "name": "hit.wav",
+    "originalFilePath": "assets/audio/hit.wav",
+    "type": "audio",
+    "size": 24252,
+    "path": "assets/audio/hit.wav",
+    "lastModified": "2025-07-25T11:39:47.207Z",
+    "isAudioSprite": true,
+    "loop": false
+}

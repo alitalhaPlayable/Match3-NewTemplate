@@ -1,0 +1,15 @@
+{
+    "id": "cc1c41de-744b-4e7d-b1db-ccd9a123acdd",
+    "name": "audio_on.png",
+    "originalFilePath": "assets/2d/audio_on.png",
+    "type": "image",
+    "size": 3895,
+    "path": "assets/2d/audio_on.png",
+    "lastModified": "2024-05-10T19:03:11.542Z",
+    "isNew": false,
+    "exportCodeName": "audio_on.png",
+    "exportCode3DName": "audio_on.png",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false
+}

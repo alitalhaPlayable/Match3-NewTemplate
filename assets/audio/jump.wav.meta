@@ -1,0 +1,11 @@
+{
+    "id": "096b1702-bfb2-4acd-920e-7b757d1fa9ea",
+    "name": "jump.wav",
+    "originalFilePath": "assets/audio/jump.wav",
+    "type": "audio",
+    "size": 22120,
+    "path": "assets/audio/jump.wav",
+    "lastModified": "2025-07-25T11:39:47.225Z",
+    "isAudioSprite": true,
+    "loop": false
+}

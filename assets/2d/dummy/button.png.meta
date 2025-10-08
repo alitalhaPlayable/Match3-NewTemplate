@@ -1,0 +1,18 @@
+{
+    "id": "022785de-f1b3-4829-a5da-d2b0eb1ff9c0",
+    "name": "button.png",
+    "originalFilePath": "assets/2d/dummy/button.png",
+    "type": "image",
+    "size": 725,
+    "path": "assets/2d/dummy/button.png",
+    "lastModified": "2024-10-02T07:35:57.048Z",
+    "isNew": false,
+    "exportCodeName": "button",
+    "exportCode3DName": "button",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 231,
+    "height": 88,
+    "__hidden": true
+}

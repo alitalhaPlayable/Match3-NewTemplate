@@ -1,0 +1,18 @@
+{
+    "id": "f21f241b-4ebe-4b03-9afd-59c491df6916",
+    "name": "audio-sprite.m4a",
+    "originalFilePath": "assets/.core/audio/audio-sprite/audio-sprite.m4a",
+    "type": "audio",
+    "size": 0,
+    "path": "assets/.core/audio/audio-sprite/audio-sprite.m4a.meta",
+    "lastModified": "2025-07-25T11:42:23.872Z",
+    "bitrate": 96000,
+    "sampleRate": 22050,
+    "loop": false,
+    "audioNames": [
+        "bounce",
+        "collect",
+        "hit",
+        "jump"
+    ]
+}

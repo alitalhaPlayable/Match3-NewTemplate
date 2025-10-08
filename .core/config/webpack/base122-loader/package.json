@@ -1,0 +1,19 @@
+{
+  "name": "base122-loader",
+  "version": "1.0.0",
+  "description": "base 122 loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapacarta/base122-loader.git"
+  },
+  "author": "mapacarta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapacarta/base122-loader/issues"
+  },
+  "homepage": "https://github.com/mapacarta/base122-loader#readme"
+}

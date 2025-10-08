@@ -1,0 +1,12 @@
+{
+    "id": "cef7dd9a-1b1e-49a2-9b50-ac145c8132d5",
+    "name": "snake.animation",
+    "originalFilePath": "assets/2d/dummy/snake.animation",
+    "type": "animation",
+    "size": 20379,
+    "path": "assets/2d/dummy/snake.animation.meta",
+    "lastModified": "2024-05-04T08:22:52.185Z",
+    "exportCodeName": "snake",
+    "exportForCode": false,
+    "__hidden": true
+}

@@ -1,0 +1,16 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"core/*": ["./core/*"],
+			"@globals": ["../src/globals.ts"],
+			"@src/*": ["../src/*"],
+			"@assets_core/*": ["../assets/*"],
+			"@project/*": ["../*"],			
+			"@physics3d/*": ["./core/libs/three/utils/physics/*"]
+		}
+	},
+	"include": ["./core/**/*.ts", "./core/**/*.js"],
+	"exclude": ["../node_modules", "../src/assets.ts"]
+} 

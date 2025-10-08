@@ -1,0 +1,13 @@
+{
+    "id": "d53dd40f-5ca0-4bfa-90f9-58f9164efae4",
+    "name": "confetti.quarks",
+    "originalFilePath": "assets/quarkEffects/confetti.quarks",
+    "type": "quarksParticle",
+    "size": 12266,
+    "path": "assets/quarkEffects/confetti.quarks",
+    "lastModified": "2025-07-29T07:56:13.481Z",
+    "quarks": true,
+    "exportForCode3D": false,
+    "exportCode3DName": "confetti",
+    "numOfParticles": 5
+}

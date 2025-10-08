@@ -1,0 +1,18 @@
+{
+    "id": "e754f2d0-910d-4a77-aa33-c05939dcc80b",
+    "name": "hand tut.png",
+    "originalFilePath": "assets/2d/dummy/hand tut.png",
+    "type": "image",
+    "size": 19284,
+    "path": "assets/2d/dummy/hand tut.png",
+    "lastModified": "2024-08-16T16:45:42.177Z",
+    "isNew": false,
+    "exportCodeName": "hand tut",
+    "exportCode3DName": "hand tut",
+    "enableAtlas": true,
+    "enableTiny": true,
+    "exportForCode": false,
+    "width": 125,
+    "height": 192,
+    "__hidden": true
+}

@@ -1,0 +1,45 @@
+#modal {
+	z-index: 9999;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body,
+html {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	background: 0 0;
+
+	touch-action: none;
+}
+
+canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.hide {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s, visiblility 1s;
+}
+
+.show {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 1s, visiblility 1s;
+}

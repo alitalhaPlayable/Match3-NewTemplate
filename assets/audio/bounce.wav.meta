@@ -1,0 +1,11 @@
+{
+    "id": "ac66138d-a9af-491c-989d-1ea589461891",
+    "name": "bounce.wav",
+    "originalFilePath": "assets/audio/bounce.wav",
+    "type": "audio",
+    "size": 10352,
+    "path": "assets/audio/bounce.wav",
+    "lastModified": "2025-07-25T11:39:47.104Z",
+    "isAudioSprite": true,
+    "loop": false
+}
